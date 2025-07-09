@@ -1,8 +1,8 @@
 [
   {
-    "id" : "cie.fhir.ig",
+    "id" : "cie.fhir.us",
     "type" : "ImplementationGuide",
-    "url" : "https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.ig",
+    "url" : "https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us",
     "version" : "0.1.0",
     "name" : "ciefhirig"
   },
