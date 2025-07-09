@@ -57,7 +57,7 @@ Usage:
 }
 
 body {
-  font-size: 16px; /* default is usually ~14px */
+  font-size: 16px !important; /* default is usually ~14px */
 }
 
 h1 {
