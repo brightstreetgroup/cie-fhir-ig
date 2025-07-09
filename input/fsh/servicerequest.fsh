@@ -2,7 +2,7 @@ Alias: $or_service_id = https://directory.mi-cie.org/or_service_id
 
 Profile: CIEServiceRequest
 Parent: ServiceRequest
-Usage: #example
+
 * status = #active
 * intent = #order
 * subject = Reference(Patient/example) "Morgan Gallaty"

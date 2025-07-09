@@ -2,7 +2,7 @@ Alias: $loinc = https://loinc.org
 
 Profile: CIEPatient
 Parent: Patient
-Usage: #example
+
 * active = true
 * address.city = "Bay"
 * address.district = "BAY"
