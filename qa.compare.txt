@@ -10,7 +10,7 @@ Generated $--. FHIR version $-- for cie.fhir.us#$-- (canonical = https://directo
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
 </table>
 == n/a ==
-ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 182, column 5: The image source 'images/logo.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 204, column 5: The image source 'images/logo.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide

@@ -3,14 +3,14 @@ ciefhirig : Validation Results
 
 err = 0, warn = 5, info = 1
 IG Publisher Version: 2.0.8
-Generated Wed Jul 09 06:51:42 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
+Generated Wed Jul 09 07:07:42 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
  Build Errors : 1 / 4 / 0
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us : 0 / 1 / 1
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
 </table>
 == n/a ==
-ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 182, column 5: The image source 'images/logo.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 204, column 5: The image source 'images/logo.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
