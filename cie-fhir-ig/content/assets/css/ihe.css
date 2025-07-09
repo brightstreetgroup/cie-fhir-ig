@@ -60,6 +60,10 @@ body {
   font-size: 16px !important; /* default is usually ~14px */
 }
 
+p {
+  font-size: 16px !important; /* default is usually ~14px */
+}
+
 h1 {
   font-size: 2em;
 }
