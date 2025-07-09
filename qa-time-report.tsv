@@ -1,4 +1,4 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json	1345	-	0	0	0	0	0	0	5	63	0	0	0	0	0	0	0	0	0	0	55	48	0	0	0	3	0	1
-fsh-generated/resources/StructureDefinition-CIEPatient.json	4305	12	0	66	1	0	0	0	0	63	0	0	1	0	0	0	0	3	0	0	230	666	0	0	0	17	0	1
-fsh-generated/resources/StructureDefinition-CIEServiceRequest.json	3482	8	0	44	0	0	0	0	0	47	0	0	0	0	0	0	0	1	0	0	127	257	0	0	0	6	0	2
+/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json	1345	-	0	0	0	0	0	0	6	68	0	0	0	0	0	0	0	0	0	0	37	34	0	0	0	3	0	0
+fsh-generated/resources/StructureDefinition-CIEPatient.json	4305	17	0	62	0	0	0	0	0	56	0	0	1	0	0	0	0	3	0	0	121	584	0	0	0	22	0	1
+fsh-generated/resources/StructureDefinition-CIEServiceRequest.json	3482	13	0	42	0	0	0	0	0	46	0	0	0	0	0	0	0	1	0	0	74	257	0	0	0	9	0	0
