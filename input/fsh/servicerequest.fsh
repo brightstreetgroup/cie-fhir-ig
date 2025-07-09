@@ -1,6 +1,6 @@
 Alias: $or_service_id = https://directory.mi-cie.org/or_service_id
 
-Instance: CIEServiceRequest
+Profile: CIEServiceRequest
 Parent: ServiceRequest
 Usage: #example
 * status = #active
