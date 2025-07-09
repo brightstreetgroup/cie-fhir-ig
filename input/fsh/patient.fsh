@@ -1,7 +1,6 @@
 Alias: $loinc = https://loinc.org
 
 Instance: CIEPatient
-InstanceOf: Patient
 Parent: Patient
 Usage: #example
 * active = true
