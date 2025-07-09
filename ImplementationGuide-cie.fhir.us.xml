@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="ciefhirig"/>
   <status value="draft"/>
-  <date value="2025-07-09T09:08:49-04:00"/>
+  <date value="2025-07-09T09:19:55-04:00"/>
   <publisher value="Brighstreet Group"/>
   <contact>
     <name value="Brighstreet Group"/>
@@ -443,23 +443,23 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="Patient/CIEPatient"/>
+        <reference value="StructureDefinition/CIEPatient"/>
       </reference>
       <name value="CIEPatient"/>
-      <exampleBoolean value="true"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="ServiceRequest/CIEServiceRequest"/>
+        <reference value="StructureDefinition/CIEServiceRequest"/>
       </reference>
       <name value="CIEServiceRequest"/>
-      <exampleBoolean value="true"/>
+      <exampleBoolean value="false"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
