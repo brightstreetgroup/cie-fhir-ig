@@ -6,3 +6,5 @@ Thumbs.db
 /temp
 /template
 publisher.jar
+.index.json
+.index.db
