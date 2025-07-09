@@ -1,0 +1,19 @@
+{
+  "url" : "https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.ig",
+  "name" : "ciefhirig",
+  "title" : null,
+  "description" : null,
+  "status" : "draft",
+  "package-id" : "cie.fhir.ig",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 08 Jul, 2025 20:35:23 -0400",
+  "dateISO8601" : "2025-07-08T20:35:23-04:00",
+  "errs" : 0,
+  "warnings" : 5,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 895266592
+}
