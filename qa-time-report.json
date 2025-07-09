@@ -1,45 +1,45 @@
 {
-  "date" : "Wed, 09 Jul, 2025 08:42:55 -0400",
+  "date" : "Wed, 09 Jul, 2025 09:06:52 -0400",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json",
-      "size" : 1539,
+      "size" : 1322,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 15,
-          "length" : 24
+          "start" : 16,
+          "length" : 18
         },
         {
           "activity" : "checkR4R4B",
           "start" : 16,
-          "length" : 9
+          "length" : 6
         },
         {
           "activity" : "generateNarratives",
           "start" : 16,
-          "length" : 60
+          "length" : 64
         },
         {
           "activity" : "validate",
           "start" : 17,
-          "length" : 5631
+          "length" : 5577
         },
         {
           "activity" : "generate1",
-          "start" : 22,
-          "length" : 39
-        },
-        {
-          "activity" : "generate2",
           "start" : 23,
           "length" : 51
         },
         {
+          "activity" : "generate2",
+          "start" : 24,
+          "length" : 36
+        },
+        {
           "activity" : "generateValidationPack",
           "start" : 27,
-          "length" : 3
+          "length" : 2
         },
         {
           "activity" : "scanExamplesForR5",
@@ -49,99 +49,69 @@
       ]
     },
     {
-      "name" : "fsh-generated/resources/Patient-PatientExample.json",
-      "size" : 271,
+      "name" : "fsh-generated/resources/Patient-CIEPatient.json",
+      "size" : 1401,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 15,
-          "length" : 12
+          "start" : 16,
+          "length" : 8
         },
         {
           "activity" : "generateNarratives",
           "start" : 16,
-          "length" : 5
+          "length" : 642
         },
         {
           "activity" : "validate",
           "start" : 22,
-          "length" : 3
+          "length" : 664
         },
         {
           "activity" : "generate1",
-          "start" : 22,
-          "length" : 8
+          "start" : 24,
+          "length" : 13
         },
         {
           "activity" : "generate2",
-          "start" : 23,
-          "length" : 15
+          "start" : 24,
+          "length" : 20
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 27,
+          "length" : 1
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/StructureDefinition-MyPatient.json",
-      "size" : 619,
+      "name" : "fsh-generated/resources/ServiceRequest-example-minimal.json",
+      "size" : 751,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 15,
-          "length" : 11
-        },
-        {
-          "activity" : "load",
-          "start" : 15,
-          "length" : 17
-        },
-        {
-          "activity" : "generateSnapshots",
           "start" : 16,
-          "length" : 65
-        },
-        {
-          "activity" : "loadDepInfo",
-          "start" : 16,
-          "length" : 1
+          "length" : 7
         },
         {
           "activity" : "generateNarratives",
-          "start" : 16,
-          "length" : 39
+          "start" : 17,
+          "length" : 14
         },
         {
           "activity" : "validate",
-          "start" : 16,
-          "length" : 673
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 22,
-          "length" : 1
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 22,
-          "length" : 1
+          "start" : 23,
+          "length" : 363
         },
         {
           "activity" : "generate1",
-          "start" : 22,
-          "length" : 54
+          "start" : 24,
+          "length" : 8
         },
         {
           "activity" : "generate2",
-          "start" : 23,
-          "length" : 508
-        },
-        {
-          "activity" : "generate2",
-          "start" : 23,
-          "length" : 855
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 27,
-          "length" : 7
+          "start" : 24,
+          "length" : 11
         }
       ]
     }

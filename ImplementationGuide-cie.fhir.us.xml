@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="ciefhirig"/>
   <status value="draft"/>
-  <date value="2025-07-09T08:42:39-04:00"/>
+  <date value="2025-07-09T09:06:35-04:00"/>
   <publisher value="Brighstreet Group"/>
   <contact>
     <name value="Brighstreet Group"/>
@@ -443,25 +443,23 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/MyPatient"/>
-      </reference>
-      <name value="MyPatient"/>
-      <description value="An example profile of the Patient resource."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/PatientExample"/>
+        <reference value="Patient/CIEPatient"/>
       </reference>
-      <name value="PatientExample"/>
-      <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/MyPatient"/>
+      <name value="CIEPatient"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/example-minimal"/>
+      </reference>
+      <name value="example-minimal"/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

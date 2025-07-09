@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "ciefhirig",
   "status" : "draft",
-  "date" : "2025-07-09T08:42:39-04:00",
+  "date" : "2025-07-09T09:06:35-04:00",
   "publisher" : "Brighstreet Group",
   "contact" : [{
     "name" : "Brighstreet Group",
@@ -599,26 +599,24 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "Patient"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/MyPatient"
+        "reference" : "Patient/CIEPatient"
       },
-      "name" : "MyPatient",
-      "description" : "An example profile of the Patient resource.",
-      "exampleBoolean" : false
+      "name" : "CIEPatient",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
+        "valueString" : "ServiceRequest"
       }],
       "reference" : {
-        "reference" : "Patient/PatientExample"
+        "reference" : "ServiceRequest/example-minimal"
       },
-      "name" : "PatientExample",
-      "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/MyPatient"
+      "name" : "example-minimal",
+      "exampleBoolean" : true
     }],
     "page" : {
       "extension" : [{

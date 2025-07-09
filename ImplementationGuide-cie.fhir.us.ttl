@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ciefhirig"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-09T08:42:39-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-09T09:06:35-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Brighstreet Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Brighstreet Group" ] ;
@@ -823,37 +823,34 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "StructureDefinition:resource"
+           fhir:v "Patient"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/MyPatient> ;
-         fhir:reference [ fhir:v "StructureDefinition/MyPatient" ]
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Patient/CIEPatient> ;
+         fhir:reference [ fhir:v "Patient/CIEPatient" ]
        ] ;
-       fhir:name [ fhir:v "MyPatient" ] ;
-       fhir:description [ fhir:v "An example profile of the Patient resource." ] ;
+       fhir:name [ fhir:v "CIEPatient" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Patient"
+           fhir:v "ServiceRequest"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Patient/PatientExample> ;
-         fhir:reference [ fhir:v "Patient/PatientExample" ]
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/ServiceRequest/example-minimal> ;
+         fhir:reference [ fhir:v "ServiceRequest/example-minimal" ]
        ] ;
-       fhir:name [ fhir:v "PatientExample" ] ;
-       fhir:description [ fhir:v "An example of a patient with a license to krill." ] ;
+       fhir:name [ fhir:v "example-minimal" ] ;
        fhir:example [
-         a fhir:canonical ;
-         fhir:v "https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/MyPatient"^^xsd:anyURI ;
-         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/MyPatient>
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] ) ;
      fhir:page [

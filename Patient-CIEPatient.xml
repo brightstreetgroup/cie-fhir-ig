@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="CIEPatient"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient CIEPatient</b></p><a name="CIEPatient"> </a><a name="hcCIEPatient"> </a><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Test Test (official) (no stated gender), DoB: 2020-12-12 ( PersonId: 22990393 (use: official, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">1314 Test Edge ,BAY,MI,49120(home)</td></tr><tr><td style="background-color: #f3f5da" title="Language spoken">Language:</td><td colspan="3"><span title="Codes:">English</span></td></tr><tr><td style="background-color: #f3f5da" title="Nominated Contact: Mother">Mother:</td><td colspan="3"><ul><li>TestMom TestParent (Official)</li><li>ph: (111)-111-1111(Mobile)</li></ul></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <text value="PersonId"/>
+    </type>
+    <system value="https://helpmegrow.org"/>
+    <value value="22990393"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <family value="Test"/>
+    <given value="Test"/>
+  </name>
+  <birthDate value="2020-12-12"/>
+  <address>
+    <use value="home"/>
+    <type value="physical"/>
+    <text value="1314 Test Edge ,BAY,MI,49120"/>
+    <line value="1314 Test Edge "/>
+    <city value="Bay"/>
+    <district value="BAY"/>
+    <state value="MI"/>
+    <postalCode value="49120"/>
+  </address>
+  <contact>
+    <relationship>
+      <coding>
+        <system value="https://loinc.org"/>
+        <code value="NMTH"/>
+        <display value="Mother"/>
+      </coding>
+    </relationship>
+    <name>
+      <use value="official"/>
+      <family value="TestParent"/>
+      <given value="TestMom"/>
+    </name>
+    <telecom>
+      <system value="phone"/>
+      <value value="(111)-111-1111"/>
+      <use value="mobile"/>
+      <rank value="1"/>
+    </telecom>
+  </contact>
+  <communication>
+    <language>
+      <coding>
+        <code value="en-US"/>
+        <display value="English"/>
+      </coding>
+    </language>
+  </communication>
+</Patient>

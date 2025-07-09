@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://directory.mi-cie.org/cie/fhir/ig/Patient/CIEPatient> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CIEPatient"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient CIEPatient</b></p><a name=\"CIEPatient\"> </a><a name=\"hcCIEPatient\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Test Test (official) (no stated gender), DoB: 2020-12-12 ( PersonId: 22990393 (use: official, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">1314 Test Edge ,BAY,MI,49120(home)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:\">English</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: Mother\">Mother:</td><td colspan=\"3\"><ul><li>TestMom TestParent (Official)</li><li>ph: (111)-111-1111(Mobile)</li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:text [ fhir:v "PersonId" ]
+     ] ;
+     fhir:system [ fhir:v "https://helpmegrow.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "22990393" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Test" ] ;
+     fhir:given ( [ fhir:v "Test" ] )
+  ] ) ; # 
+  fhir:birthDate [ fhir:v "2020-12-12"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:use [ fhir:v "home" ] ;
+     fhir:type [ fhir:v "physical" ] ;
+     fhir:text [ fhir:v "1314 Test Edge ,BAY,MI,49120" ] ;
+     fhir:line ( [ fhir:v "1314 Test Edge " ] ) ;
+     fhir:city [ fhir:v "Bay" ] ;
+     fhir:district [ fhir:v "BAY" ] ;
+     fhir:state [ fhir:v "MI" ] ;
+     fhir:postalCode [ fhir:v "49120" ]
+  ] ) ; # 
+  fhir:contact ( [
+     fhir:relationship ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "NMTH" ] ;
+         fhir:display [ fhir:v "Mother" ]
+       ] )
+     ] ) ;
+     fhir:name [
+       fhir:use [ fhir:v "official" ] ;
+       fhir:family [ fhir:v "TestParent" ] ;
+       fhir:given ( [ fhir:v "TestMom" ] )
+     ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "(111)-111-1111" ] ;
+       fhir:use [ fhir:v "mobile" ] ;
+       fhir:rank [ fhir:v "1"^^xsd:positiveInteger ]
+     ] )
+  ] ) ; # 
+  fhir:communication ( [
+     fhir:language [
+       fhir:coding ( [
+         fhir:code [ fhir:v "en-US" ] ;
+         fhir:display [ fhir:v "English" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
