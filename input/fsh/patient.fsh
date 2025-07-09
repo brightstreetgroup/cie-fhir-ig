@@ -17,7 +17,7 @@ Parent: Patient
 * identifier.system = "https://helpmegrow.org"
 * identifier.type.text = "PersonId"
 * identifier.use = #official
-* identifier.value = "22990393"
+* identifier.value = "12345"
 * name.family = "Test"
 * name.given = "Test"
 * name.use = #official

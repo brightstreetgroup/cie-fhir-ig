@@ -7,7 +7,7 @@ Parent: ServiceRequest
 * intent = #order
 * subject = Reference(Patient/example) "Morgan Gallaty"
 * code = $or_service_id#211021 "CASE/CARE MANAGEMENT"
-* note.authorString = "Kristina Gary"
+* note.authorString = "Kristina Test"
 * note.text = "{{PUT IN NOTE HERE}}"
 * note.time = "2025-05-21T14:01:19.816Z"
 * performer.display = "United Way of Bay County"
