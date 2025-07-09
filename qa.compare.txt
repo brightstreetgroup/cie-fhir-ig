@@ -4,13 +4,81 @@ ciefhirig : Validation Results
 err = 0, warn = 5, info = 1
 $--
 Generated $--. FHIR version $-- for cie.fhir.ig#$-- (canonical = https://directory.mi-cie.org/cie/fhir/ig)
- Build Errors : 1 / 4 / 0
+ Build Errors : 69 / 4 / 0
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.ig : 0 / 1 / 1
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
 </table>
 == n/a ==
-ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 182, column 5: The image source 'images/logo.png' cannot be resolved
+ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 92, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 105, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: Patient-PatientExample.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 88, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: Patient-PatientExample.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 98, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: Patient-PatientExample.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: Patient-PatientExample.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: Patient-PatientExample.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 90, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: Patient-PatientExample.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 100, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: Patient-PatientExample.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: Patient-PatientExample.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: Patient-PatientExample.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 90, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: Patient-PatientExample.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 100, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: Patient-PatientExample.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: Patient-PatientExample.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: Patient-PatientExample.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 90, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: Patient-PatientExample.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 100, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: Patient-PatientExample.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 103, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: Patient-PatientExample.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 117, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 92, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 105, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 92, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 105, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 92, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 105, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 92, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 105, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 92, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 105, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 92, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 102, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 105, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 119, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 96, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 109, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 96, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 109, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 96, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 106, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 109, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 88, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 98, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 88, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 98, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 213, column 5: The image source 'images/logo.png' cannot be resolved
+ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 88, column 10: The link 'background.html' for "Background" cannot be resolved
+ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 98, column 10: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 101, column 10: The link 'fragments.html' for "Instance Fragments" cannot be resolved
+ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 115, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
