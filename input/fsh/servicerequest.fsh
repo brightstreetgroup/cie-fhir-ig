@@ -2,6 +2,7 @@ Alias: $or_service_id = https://directory.mi-cie.org/or_service_id
 
 Instance: CIEServiceRequest
 InstanceOf: ServiceRequest
+Parent: ServiceRequest
 Usage: #example
 * status = #active
 * intent = #order
