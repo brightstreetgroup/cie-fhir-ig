@@ -9,14 +9,13 @@ java -jar publisher.jar -ig ig.ini
 
 # Checkout orphan branch and deploy output/
 echo "Deploying to gh-pages..."
-git checkout --orphan gh-pages
+git checkout gh-pages
 #git rm -rf .
 cp -R output/* ./
 touch .nojekyll
 git add .
 git commit -m "Deploy CIE IG to GitHub Pages"
-git push -f origin gh-pages
+git push origin gh-pages
 
 # Switch back to main
 git checkout main
-
