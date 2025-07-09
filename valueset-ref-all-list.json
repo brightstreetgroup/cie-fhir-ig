@@ -124,8 +124,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-CIEPatient.html" : "CIEPatient",
-      "StructureDefinition-CIEServiceRequest.html" : "CIEServiceRequest"
+      "StructureDefinition-CIEServiceRequest.html" : "CIEServiceRequest",
+      "StructureDefinition-CIEPatient.html" : "CIEPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

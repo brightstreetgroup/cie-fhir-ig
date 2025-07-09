@@ -187,7 +187,7 @@ string {[]} {[]}","Individual responsible for the annotation","The individual re
 ","",,"open","Annotation.author[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A","Act.participant[typeCode=AUT].role"
 "ServiceRequest.note.author[x]:authorString","ServiceRequest.note.author[x]","authorString","","",0,1,"","","Y","string {[]} {[]}
-","Individual responsible for the annotation","The individual responsible for making the annotation.","Organization is used when there's no need for specific attribution as to who made the comment.","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""Kristina Gary""/>","","","",,,,,"",,,,"Annotation.author[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Individual responsible for the annotation","The individual responsible for making the annotation.","Organization is used when there's no need for specific attribution as to who made the comment.","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""Kristina Test""/>","","","",,,,,"",,,,"Annotation.author[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A","Act.participant[typeCode=AUT].role"
 "ServiceRequest.note.time","ServiceRequest.note.time","","","",0,1,"","","Y","dateTime {[]} {[]}
 ","When the annotation was made","Indicates when this particular annotation was made.","","","","","","<valueDateTime xmlns=""http://hl7.org/fhir"" value=""2025-05-21T14:01:19.816Z""/>","","","",,,,,"",,,,"Annotation.time",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
