@@ -2,25 +2,25 @@ ciefhirig
 =========================================
 
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Patient/CIEPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
-Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/example-minimal.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/CIEServiceRequest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Error - The link 'Patient/example' for "Morgan Gallaty" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The image source 'images/logo.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json: line 1, col 11866, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (INVARIANT)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json: line 1, col 11870, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (INVARIANT)
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-CIEPatient.json: line 35, col 41, Warning - No definition could be found for URL value 'https://helpmegrow.org' (INVALID)
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-CIEPatient.json: line 7, col 26, Warning - value should not start or finish with whitespace '1314 Test Edge ' (INVALID)
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-CIEPatient.json: line 52, col 10, Warning - A definition for CodeSystem 'https://loinc.org' could not be found, so the code cannot be validated (NOTFOUND)
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-CIEPatient.json: line 56, col 44, Warning - No definition could be found for URL value 'https://loinc.org' (INVALID)
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-CIEPatient.json: line 20, col 8, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-example-minimal.json: line 28, col 4, Warning - A definition for CodeSystem 'https://directory.mi-cie.org/or_service_id' could not be found, so the code cannot be validated (NOTFOUND)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-example-minimal.json: line 32, col 63, Warning - No definition could be found for URL value 'https://directory.mi-cie.org/or_service_id' (INVALID)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-example-minimal.json: line 24, col 4, Error - Unable to resolve resource with reference 'Patient/example' (STRUCTURE)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-example-minimal.json: line 14, col 10, Error - The extension https://directory.mi-cie.org/or_org_id could not be found so is not allowed here (STRUCTURE)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-example-minimal.json: line 15, col 58, Warning - No definition could be found for URL value 'https://directory.mi-cie.org/or_org_id' (INVALID)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-example-minimal.json: line 0, col 0, Error - Hyperlink 'Patient/example' at 'div/p/a' for 'Morgan Gallaty' does not resolve (INVALID)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-CIEServiceRequest.json: line 28, col 4, Warning - A definition for CodeSystem 'https://directory.mi-cie.org/or_service_id' could not be found, so the code cannot be validated (NOTFOUND)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-CIEServiceRequest.json: line 32, col 63, Warning - No definition could be found for URL value 'https://directory.mi-cie.org/or_service_id' (INVALID)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-CIEServiceRequest.json: line 24, col 4, Error - Unable to resolve resource with reference 'Patient/example' (STRUCTURE)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-CIEServiceRequest.json: line 14, col 10, Error - The extension https://directory.mi-cie.org/or_org_id could not be found so is not allowed here (STRUCTURE)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-CIEServiceRequest.json: line 15, col 58, Warning - No definition could be found for URL value 'https://directory.mi-cie.org/or_org_id' (INVALID)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-CIEServiceRequest.json: line 0, col 0, Error - Hyperlink 'Patient/example' at 'div/p/a' for 'Morgan Gallaty' does not resolve (INVALID)
 
 err = 3, warn = 15, info = 0
 IG Publisher Version: 2.0.8

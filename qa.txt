@@ -3,16 +3,16 @@ ciefhirig : Validation Results
 
 err = 3, warn = 15, info = 0
 IG Publisher Version: 2.0.8
-Generated Wed Jul 09 09:07:04 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
+Generated Wed Jul 09 09:09:17 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
  Build Errors : 2 / 6 / 0
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us : 0 / 1 / 1
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-CIEPatient : 0 / 5 / 1
- /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-example-minimal : 3 / 3 / 1
+ /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ServiceRequest-CIEServiceRequest : 3 / 3 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/CIEPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/example-minimal.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: ServiceRequest-example-minimal.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 303: The link 'Patient/example' for "Morgan Gallaty" cannot be resolved
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/CIEServiceRequest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: ServiceRequest-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/p/a at Line 192, column 307: The link 'Patient/example' for "Morgan Gallaty" cannot be resolved
 ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 204, column 5: The image source 'images/logo.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
@@ -26,10 +26,10 @@ WARNING: Patient/CIEPatient: Patient.address[0].line[0]: value should not start 
 WARNING: Patient/CIEPatient: Patient.contact[0].relationship[0].coding[0].system: A definition for CodeSystem 'https://loinc.org' could not be found, so the code cannot be validated
 WARNING: Patient/CIEPatient: Patient.contact[0].relationship[0].coding[0].system: No definition could be found for URL value 'https://loinc.org'
 WARNING: Patient/CIEPatient: Patient.communication[0].language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-== fsh-generated/resources/ServiceRequest-example-minimal.json ==
-WARNING: ServiceRequest/example-minimal: ServiceRequest.code.coding[0].system: A definition for CodeSystem 'https://directory.mi-cie.org/or_service_id' could not be found, so the code cannot be validated
-WARNING: ServiceRequest/example-minimal: ServiceRequest.code.coding[0].system: No definition could be found for URL value 'https://directory.mi-cie.org/or_service_id'
-ERROR: ServiceRequest/example-minimal: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/example'
-ERROR: ServiceRequest/example-minimal: ServiceRequest.performer[0].extension[0]: The extension https://directory.mi-cie.org/or_org_id could not be found so is not allowed here
-WARNING: ServiceRequest/example-minimal: ServiceRequest.performer[0].extension[0].url: No definition could be found for URL value 'https://directory.mi-cie.org/or_org_id'
+== fsh-generated/resources/ServiceRequest-CIEServiceRequest.json ==
+WARNING: ServiceRequest/CIEServiceRequest: ServiceRequest.code.coding[0].system: A definition for CodeSystem 'https://directory.mi-cie.org/or_service_id' could not be found, so the code cannot be validated
+WARNING: ServiceRequest/CIEServiceRequest: ServiceRequest.code.coding[0].system: No definition could be found for URL value 'https://directory.mi-cie.org/or_service_id'
+ERROR: ServiceRequest/CIEServiceRequest: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/example'
+ERROR: ServiceRequest/CIEServiceRequest: ServiceRequest.performer[0].extension[0]: The extension https://directory.mi-cie.org/or_org_id could not be found so is not allowed here
+WARNING: ServiceRequest/CIEServiceRequest: ServiceRequest.performer[0].extension[0].url: No definition could be found for URL value 'https://directory.mi-cie.org/or_org_id'
 ERROR: ServiceRequest.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Morgan Gallaty' does not resolve

@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://directory.mi-cie.org/cie/fhir/ig/ServiceRequest/CIEServiceRequest> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CIEServiceRequest"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest CIEServiceRequest</b></p><a name=\"CIEServiceRequest\"> </a><a name=\"hcCIEServiceRequest\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{https://directory.mi-cie.org/or_service_id 211021}\">CASE/CARE MANAGEMENT</span></p><p><b>subject</b>: <a href=\"Patient/example\">Morgan Gallaty</a></p><p><b>performer</b>: United Way of Bay County</p><p><b>note</b>: By Kristina Gary @2025-05-21 14:01:19+0000</p><blockquote><div><p>{{PUT IN NOTE HERE}}</p>\n</div></blockquote></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://directory.mi-cie.org/or_service_id"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "211021" ] ;
+       fhir:display [ fhir:v "CASE/CARE MANAGEMENT" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Patient/example> ;
+     fhir:reference [ fhir:v "Patient/example" ] ;
+     fhir:display [ fhir:v "Morgan Gallaty" ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://directory.mi-cie.org/or_org_id"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "38562"
+       ]
+     ] ) ;
+     fhir:display [ fhir:v "United Way of Bay County" ]
+  ] ) ; # 
+  fhir:note ( [
+     fhir:author [
+       a fhir:string ;
+       fhir:v "Kristina Gary"
+     ] ;
+     fhir:time [ fhir:v "2025-05-21T14:01:19.816Z"^^xsd:dateTime ] ;
+     fhir:text [ fhir:v "{{PUT IN NOTE HERE}}" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

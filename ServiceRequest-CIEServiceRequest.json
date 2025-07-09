@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "CIEServiceRequest",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest CIEServiceRequest</b></p><a name=\"CIEServiceRequest\"> </a><a name=\"hcCIEServiceRequest\"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{https://directory.mi-cie.org/or_service_id 211021}\">CASE/CARE MANAGEMENT</span></p><p><b>subject</b>: <a href=\"Patient/example\">Morgan Gallaty</a></p><p><b>performer</b>: United Way of Bay County</p><p><b>note</b>: By Kristina Gary @2025-05-21 14:01:19+0000</p><blockquote><div><p>{{PUT IN NOTE HERE}}</p>\n</div></blockquote></div>"
+  },
+  "status" : "active",
+  "intent" : "order",
+  "code" : {
+    "coding" : [{
+      "system" : "https://directory.mi-cie.org/or_service_id",
+      "code" : "211021",
+      "display" : "CASE/CARE MANAGEMENT"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example",
+    "display" : "Morgan Gallaty"
+  },
+  "performer" : [{
+    "extension" : [{
+      "url" : "https://directory.mi-cie.org/or_org_id",
+      "valueString" : "38562"
+    }],
+    "display" : "United Way of Bay County"
+  }],
+  "note" : [{
+    "authorString" : "Kristina Gary",
+    "time" : "2025-05-21T14:01:19.816Z",
+    "text" : "{{PUT IN NOTE HERE}}"
+  }]
+}

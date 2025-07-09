@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "ciefhirig",
   "status" : "draft",
-  "date" : "2025-07-09T09:06:35-04:00",
+  "date" : "2025-07-09T09:08:49-04:00",
   "publisher" : "Brighstreet Group",
   "contact" : [{
     "name" : "Brighstreet Group",
@@ -613,9 +613,9 @@
         "valueString" : "ServiceRequest"
       }],
       "reference" : {
-        "reference" : "ServiceRequest/example-minimal"
+        "reference" : "ServiceRequest/CIEServiceRequest"
       },
-      "name" : "example-minimal",
+      "name" : "CIEServiceRequest",
       "exampleBoolean" : true
     }],
     "page" : {

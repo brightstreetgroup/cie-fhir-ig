@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "cie.fhir.us",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 09 Jul, 2025 09:06:52 -0400",
-  "dateISO8601" : "2025-07-09T09:06:52-04:00",
+  "date" : "Wed, 09 Jul, 2025 09:09:06 -0400",
+  "dateISO8601" : "2025-07-09T09:09:06-04:00",
   "errs" : 3,
   "warnings" : 15,
   "hints" : 0,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 951197216
+  "maxMemory" : 1006871920
 }
