@@ -3,7 +3,7 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.cie.ig
+id: hl7.fhir.us.cie
 canonical: https://directory.mi-cie.org/cie/fhir/ig
 name: cie-fhir-ig
 # title: Example Title
