@@ -3,7 +3,7 @@ ciefhirig : Validation Results
 
 err = 0, warn = 5, info = 1
 IG Publisher Version: 2.0.8
-Generated Wed Jul 09 07:07:42 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
+Generated Wed Jul 09 07:32:13 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
  Build Errors : 1 / 4 / 0
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us : 0 / 1 / 1
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
