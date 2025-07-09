@@ -1,6 +1,6 @@
 Alias: $or_service_id = https://directory.mi-cie.org/or_service_id
 
-Instance: example-minimal
+Instance: CIEServiceRequest
 InstanceOf: ServiceRequest
 Usage: #example
 * status = #active
