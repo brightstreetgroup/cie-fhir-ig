@@ -1,5 +1,5 @@
 {
-  "date" : "Wed, 09 Jul, 2025 09:32:06 -0400",
+  "date" : "Wed, 09 Jul, 2025 09:42:14 -0400",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
@@ -8,8 +8,8 @@
       "processes" : [
         {
           "activity" : "load",
-          "start" : 15,
-          "length" : 13
+          "start" : 14,
+          "length" : 21
         },
         {
           "activity" : "checkR4R4B",
@@ -19,31 +19,31 @@
         {
           "activity" : "generateNarratives",
           "start" : 15,
-          "length" : 65
+          "length" : 58
         },
         {
           "activity" : "validate",
           "start" : 16,
-          "length" : 5721
+          "length" : 6124
         },
         {
           "activity" : "generate1",
-          "start" : 22,
-          "length" : 31
+          "start" : 23,
+          "length" : 30
         },
         {
           "activity" : "generate2",
           "start" : 23,
-          "length" : 33
+          "length" : 35
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 29,
+          "start" : 30,
           "length" : 3
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 31,
+          "start" : 32,
           "length" : 1
         }
       ]
@@ -55,56 +55,61 @@
         {
           "activity" : "loadResources",
           "start" : 14,
-          "length" : 9
+          "length" : 17
         },
         {
           "activity" : "load",
           "start" : 14,
-          "length" : 13
+          "length" : 24
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 15,
-          "length" : 67
+          "start" : 14,
+          "length" : 125
         },
         {
           "activity" : "generateNarratives",
           "start" : 15,
-          "length" : 62
+          "length" : 61
         },
         {
           "activity" : "validate",
           "start" : 15,
-          "length" : 994
+          "length" : 1095
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 22,
+          "length" : 1
         },
         {
           "activity" : "scanForUsageStats",
           "start" : 22,
-          "length" : 2
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 22,
-          "length" : 147
+          "start" : 23,
+          "length" : 124
         },
         {
           "activity" : "generate2",
           "start" : 23,
-          "length" : 567
+          "length" : 607
         },
         {
           "activity" : "generate2",
           "start" : 24,
-          "length" : 1030
+          "length" : 868
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 29,
-          "length" : 10
+          "start" : 30,
+          "length" : 19
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 31,
+          "start" : 32,
           "length" : 1
         }
       ]
@@ -116,27 +121,27 @@
         {
           "activity" : "loadResources",
           "start" : 14,
-          "length" : 7
+          "length" : 14
         },
         {
           "activity" : "load",
           "start" : 14,
-          "length" : 11
+          "length" : 17
         },
         {
           "activity" : "generateSnapshots",
           "start" : 15,
-          "length" : 53
+          "length" : 66
         },
         {
           "activity" : "generateNarratives",
           "start" : 15,
-          "length" : 48
+          "length" : 49
         },
         {
           "activity" : "validate",
           "start" : 16,
-          "length" : 367
+          "length" : 404
         },
         {
           "activity" : "scanForUsageStats",
@@ -145,27 +150,27 @@
         },
         {
           "activity" : "generate1",
-          "start" : 22,
-          "length" : 99
+          "start" : 23,
+          "length" : 80
         },
         {
           "activity" : "generate2",
           "start" : 24,
-          "length" : 318
+          "length" : 231
         },
         {
           "activity" : "generate2",
           "start" : 25,
-          "length" : 189
+          "length" : 119
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 29,
-          "length" : 7
+          "start" : 30,
+          "length" : 10
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 31,
+          "start" : 32,
           "length" : 2
         }
       ]
