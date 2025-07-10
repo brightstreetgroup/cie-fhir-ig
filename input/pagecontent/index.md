@@ -1,7 +1,5 @@
 # Community Information Exchange Implementation Guide
 
-
-
 The Community Information Exchange (CIE) Hub for Social Determinants of Health (SDOH) is a collaborative, standards-based platform designed to facilitate seamless data sharing across healthcare providers, community-based organizations, and social service agencies. Built on HL7® FHIR® (Fast Healthcare Interoperability Resources), the CIE Hub enables secure, interoperable exchange of SDOH data—such as housing, food security, transportation, and employment—to support whole-person care. By leveraging FHIR's flexible and extensible data model, the CIE Hub promotes real-time coordination, reduces fragmentation, and empowers communities to address social needs as integral components of health and well-being.
 
-<img src="assets/images/example.png" alt="Logo" width="200"/>
+<img src="assets/images/example.png" alt="Logo" width="600"/>
