@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "ciefhirig",
   "status" : "draft",
-  "date" : "2025-07-09T20:24:01-04:00",
+  "date" : "2025-07-09T20:35:37-04:00",
   "publisher" : "Brighstreet Group",
   "contact" : [{
     "name" : "Brighstreet Group",
@@ -60,7 +60,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "cie-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -339,7 +339,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "cie-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

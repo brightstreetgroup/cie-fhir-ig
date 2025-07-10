@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="ciefhirig"/>
   <status value="draft"/>
-  <date value="2025-07-09T20:24:01-04:00"/>
+  <date value="2025-07-09T20:35:37-04:00"/>
   <publisher value="Brighstreet Group"/>
   <contact>
     <name value="Brighstreet Group"/>
@@ -51,7 +51,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="cie-build"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -254,7 +254,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="cie-build"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
