@@ -3,7 +3,7 @@ ciefhirig : Validation Results
 
 err = 10, warn = 24, info = 5
 IG Publisher Version: 2.0.8
-Generated Wed Jul 09 14:28:22 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
+Generated Wed Jul 09 20:17:57 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
  Build Errors : 7 / 6 / 0
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us : 0 / 1 / 1
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/StructureDefinition-CIEPatient : 0 / 12 / 6
@@ -18,7 +18,7 @@ ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div
 ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/table/tr/td/a at Line 1476, column 867: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.url' for "url" cannot be resolved (valid targets: 134 targets)
 ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/table/tr/td/a at Line 1481, column 920: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]' for "Slices for value[x]" cannot be resolved (valid targets: 134 targets)
 ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/table/tr/td/a at Line 1486, column 972: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]:valueString' for "value[x]:valueString" cannot be resolved (valid targets: 134 targets)
-ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 204, column 5: The image source 'example.png' cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 204, column 5: The image source 'images/example.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
