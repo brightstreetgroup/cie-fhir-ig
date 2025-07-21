@@ -1,132 +1,178 @@
 {
-  "date" : "Mon, 21 Jul, 2025 08:08:26 -0400",
+  "date" : "Mon, 21 Jul, 2025 08:17:11 -0400",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json",
-      "size" : 1354,
+      "size" : 1497,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 23,
-          "length" : 15
+          "start" : 18,
+          "length" : 19
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 23,
-          "length" : 5
+          "start" : 19,
+          "length" : 10
         },
         {
           "activity" : "generateNarratives",
-          "start" : 23,
-          "length" : 69
+          "start" : 19,
+          "length" : 104
         },
         {
           "activity" : "validate",
-          "start" : 23,
-          "length" : 6115
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 29,
-          "length" : 1
+          "start" : 19,
+          "length" : 5837
         },
         {
           "activity" : "generate1",
-          "start" : 41,
-          "length" : 43
+          "start" : 37,
+          "length" : 69
         },
         {
           "activity" : "generate2",
-          "start" : 42,
-          "length" : 43
+          "start" : 38,
+          "length" : 60
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 45,
+          "start" : 40,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 42,
           "length" : 2
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/Bundle-CIE-SearchParameter-ID.json",
-      "size" : 2187,
+      "name" : "fsh-generated/resources/Bundle-CIEBundleServiceRequest.json",
+      "size" : 3141,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 23,
-          "length" : 9
+          "start" : 18,
+          "length" : 10
         },
         {
           "activity" : "load",
-          "start" : 23,
-          "length" : 13
+          "start" : 18,
+          "length" : 20
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 19,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 23,
-          "length" : 25
+          "start" : 19,
+          "length" : 347
         },
         {
           "activity" : "validate",
-          "start" : 29,
-          "length" : 56
+          "start" : 25,
+          "length" : 3645
         },
         {
           "activity" : "generate1",
-          "start" : 41,
-          "length" : 13
+          "start" : 37,
+          "length" : 21
         },
         {
           "activity" : "generate2",
-          "start" : 42,
-          "length" : 11
-        },
-        {
-          "activity" : "generateExampleZip",
-          "start" : 45,
-          "length" : 1
+          "start" : 38,
+          "length" : 29
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/Bundle-CIEBundleServiceRequest.json",
-      "size" : 3145,
+      "name" : "fsh-generated/resources/Bundle-CIESearchParameters.json",
+      "size" : 2175,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 23,
-          "length" : 8
+          "start" : 18,
+          "length" : 7
         },
         {
           "activity" : "load",
-          "start" : 23,
-          "length" : 14
+          "start" : 18,
+          "length" : 10
         },
         {
           "activity" : "load",
-          "start" : 23,
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 19,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 23,
-          "length" : 173
+          "start" : 19,
+          "length" : 18
         },
         {
           "activity" : "validate",
           "start" : 29,
-          "length" : 11719
+          "length" : 24
         },
         {
           "activity" : "generate1",
-          "start" : 41,
-          "length" : 10
+          "start" : 37,
+          "length" : 19
         },
         {
           "activity" : "generate2",
-          "start" : 42,
-          "length" : 18
+          "start" : 38,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-CIETask.json",
+      "size" : 5097,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 18,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 18,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 19,
+          "length" : 32
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 7953
+        },
+        {
+          "activity" : "generate1",
+          "start" : 37,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 38,
+          "length" : 39
         }
       ]
     }

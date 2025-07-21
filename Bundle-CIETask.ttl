@@ -1,0 +1,189 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://directory.mi-cie.org/cie/fhir/ig/Bundle/CIETask> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CIETask"] ; # 
+  fhir:type [ fhir:v "transaction"] ; # 
+  fhir:entry ( [
+     fhir:resource ( [
+       a fhir:Task ;
+       fhir:id [ fhir:v "0o8x46421913blw5" ] ;
+       fhir:text [
+         fhir:status [ fhir:v "extensions" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Task_0o8x46421913blw5\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Task 0o8x46421913blw5</b></p><a name=\"0o8x46421913blw5\"> </a><a name=\"hc0o8x46421913blw5\"> </a><p><b>org/requestedperformertask</b>: <a href=\"Practitioner/a979df85-8ac2-4f93-8809-95208b800f87\">Test Test</a></p><p><b>org/fhir/StructureDefinition/task-closeReason</b>: Other</p><p><b>org/fhir/StructureDefinition/task-LegacyUpdatedDate</b>: 06/16/2023T00:00:00.000Z</p><p><b>org/fhir/StructureDefinition/task-requestType</b>: completed</p><p><b>basedOn</b>: <a href=\"ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778\">ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778</a></p><p><b>status</b>: Completed</p><p><b>businessStatus</b>: <span title=\"Codes:{https://mi-cie.org CLOSED}\">closed</span></p><p><b>intent</b>: order</p><p><b>code</b>: <span title=\"Codes:{https://mi-cie.org OutReachTask_v2}\">Need to do a outreach to the client.</span></p><p><b>description</b>: OutReach Task for social-navigation created for Subject Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8</p><p><b>for</b>: <a href=\"Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8\">Unknown Unknown</a></p><p><b>authoredOn</b>: 2023-03-27 12:51:07+0000</p><p><b>requester</b>: <a href=\"Organization/CSA\">Children's Services Agency (CSA)</a></p><p><b>owner</b>: <a href=\"Organization/MI211-GRYP\">Michigan 211 Gryphon Place</a></p><p><b>note</b>: </p><blockquote><div/></blockquote><h3>Inputs</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{https://mi-cie.org/task-purpose purpose}\">Purpose of Task</span></td><td>social-navigation</td></tr></table></div>"^^rdf:XMLLiteral
+       ] ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "uri::mi-cie.org/requestedperformertask"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Reference ;
+           fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Practitioner/a979df85-8ac2-4f93-8809-95208b800f87> ;
+           fhir:reference [ fhir:v "Practitioner/a979df85-8ac2-4f93-8809-95208b800f87" ] ;
+           fhir:type [ fhir:v "Practitioner"^^xsd:anyURI ] ;
+           fhir:display [ fhir:v "Test Test" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "https://mi-cie.org/fhir/StructureDefinition/task-closeReason"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Reference ;
+           fhir:display [ fhir:v "Other" ]
+         ]
+       ] [
+         fhir:url [ fhir:v "https://mi-cie.org/fhir/StructureDefinition/task-LegacyUpdatedDate"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "06/16/2023T00:00:00.000Z"
+         ]
+       ] [
+         fhir:url [ fhir:v "https://mi-cie.org/fhir/StructureDefinition/task-requestType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:Reference ;
+           fhir:display [ fhir:v "completed" ]
+         ]
+       ] ) ;
+       fhir:basedOn ( [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778> ;
+         fhir:reference [ fhir:v "ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778" ] ;
+         fhir:type [ fhir:v "ServiceRequest"^^xsd:anyURI ]
+       ] ) ;
+       fhir:status [ fhir:v "completed" ] ;
+       fhir:businessStatus [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://mi-cie.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "CLOSED" ] ;
+           fhir:display [ fhir:v "closed" ]
+         ] )
+       ] ;
+       fhir:intent [ fhir:v "order" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://mi-cie.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "OutReachTask_v2" ] ;
+           fhir:display [ fhir:v "Need to do a outreach to the client." ]
+         ] )
+       ] ;
+       fhir:description [ fhir:v "OutReach Task for social-navigation created for Subject Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8" ] ;
+       fhir:for [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8> ;
+         fhir:reference [ fhir:v "Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8" ] ;
+         fhir:display [ fhir:v "Unknown Unknown" ]
+       ] ;
+       fhir:authoredOn [ fhir:v "2023-03-27T12:51:07.000Z"^^xsd:dateTime ] ;
+       fhir:requester [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Organization/CSA> ;
+         fhir:reference [ fhir:v "Organization/CSA" ] ;
+         fhir:type [ fhir:v "Organization"^^xsd:anyURI ] ;
+         fhir:display [ fhir:v "Children's Services Agency (CSA)" ]
+       ] ;
+       fhir:owner [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Organization/MI211-GRYP> ;
+         fhir:reference [ fhir:v "Organization/MI211-GRYP" ] ;
+         fhir:display [ fhir:v "Michigan 211 Gryphon Place" ]
+       ] ;
+       fhir:note ( [
+         fhir:text [ fhir:v "" ]
+       ] ) ;
+       fhir:input ( [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "https://mi-cie.org/task-purpose"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "purpose" ] ;
+             fhir:display [ fhir:v "Purpose of Task" ]
+           ] )
+         ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "social-navigation"
+         ]
+       ] )
+     ] ) ;
+     fhir:request [
+       fhir:method [ fhir:v "POST" ] ;
+       fhir:url [ fhir:v "Task"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:resource ( [
+       a fhir:Task ;
+       fhir:id [ fhir:v "Inline-Instance-for-CIETask-1" ] ;
+       fhir:text [
+         fhir:status [ fhir:v "extensions" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Task_Inline-Instance-for-CIETask-1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Task Inline-Instance-for-CIETask-1</b></p><a name=\"Inline-Instance-for-CIETask-1\"> </a><a name=\"hcInline-Instance-for-CIETask-1\"> </a><p><b>org/fhir/StructureDefinition/task-closeReason</b>: NotRecorded</p><p><b>org/fhir/StructureDefinition/task-requestType</b>: CLOSED</p><p><b>org/fhir/StructureDefinition/modified-by-user</b>: Test Test</p><p><b>basedOn</b>: </p><ul><li><a href=\"ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778\">ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778</a></li><li><a href=\"Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8\">Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8</a></li></ul><p><b>status</b>: Completed</p><p><b>businessStatus</b>: <span title=\"Codes:{https://mi-cie.org ResultNotRecorded_v2}\">NotRecorded</span></p><p><b>intent</b>: order</p><p><b>code</b>: <span title=\"Codes:{https://mi-cie.org AttemptContactByPhone_v2}\">Attempt to reach client by phone.</span></p><p><b>description</b>: Task to document an attempt to contact the subject</p><p><b>for</b>: <a href=\"Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8\">Unknown Unknown</a></p><p><b>authoredOn</b>: 2020-06-16 12:20:12-0400</p><p><b>requester</b>: <a href=\"Practitioner/a979df85-8ac2-4f93-8809-95208b800f87\">Practitioner/a979df85-8ac2-4f93-8809-95208b800f87</a></p><p><b>owner</b>: <a href=\"Organization/MI211-GRYP\">Michigan 211 Gryphon Place</a></p><p><b>note</b>: </p><blockquote><div><p>06/16/2023, 12:20:12 pm test@gpcontactcenter.org has saved progress and ended this attempt.  Other</p>\n</div></blockquote></div>"^^rdf:XMLLiteral
+       ] ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "https://mi-cie.org/fhir/StructureDefinition/task-closeReason"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "NotRecorded"
+         ]
+       ] [
+         fhir:url [ fhir:v "https://mi-cie.org/fhir/StructureDefinition/task-requestType"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CLOSED"
+         ]
+       ] [
+         fhir:url [ fhir:v "https://mi-cie.org/fhir/StructureDefinition/modified-by-user"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Test Test"
+         ]
+       ] ) ;
+       fhir:basedOn ( [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778> ;
+         fhir:reference [ fhir:v "ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778" ] ;
+         fhir:type [ fhir:v "ServiceRequest"^^xsd:anyURI ]
+       ] [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8> ;
+         fhir:reference [ fhir:v "Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8" ] ;
+         fhir:type [ fhir:v "Patient"^^xsd:anyURI ]
+       ] ) ;
+       fhir:status [ fhir:v "completed" ] ;
+       fhir:businessStatus [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://mi-cie.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ResultNotRecorded_v2" ] ;
+           fhir:display [ fhir:v "NotRecorded" ]
+         ] )
+       ] ;
+       fhir:intent [ fhir:v "order" ] ;
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://mi-cie.org"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "AttemptContactByPhone_v2" ] ;
+           fhir:display [ fhir:v "Attempt to reach client by phone." ]
+         ] )
+       ] ;
+       fhir:description [ fhir:v "Task to document an attempt to contact the subject" ] ;
+       fhir:for [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8> ;
+         fhir:reference [ fhir:v "Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8" ] ;
+         fhir:display [ fhir:v "Unknown Unknown" ]
+       ] ;
+       fhir:authoredOn [ fhir:v "2020-06-16T12:20:12-04:00"^^xsd:dateTime ] ;
+       fhir:requester [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Practitioner/a979df85-8ac2-4f93-8809-95208b800f87> ;
+         fhir:reference [ fhir:v "Practitioner/a979df85-8ac2-4f93-8809-95208b800f87" ] ;
+         fhir:type [ fhir:v "Practitioner"^^xsd:anyURI ]
+       ] ;
+       fhir:owner [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Organization/MI211-GRYP> ;
+         fhir:reference [ fhir:v "Organization/MI211-GRYP" ] ;
+         fhir:display [ fhir:v "Michigan 211 Gryphon Place" ]
+       ] ;
+       fhir:note ( [
+         fhir:text [ fhir:v "06/16/2023, 12:20:12 pm test@gpcontactcenter.org has saved progress and ended this attempt.  Other" ]
+       ] )
+     ] ) ;
+     fhir:request [
+       fhir:method [ fhir:v "POST" ] ;
+       fhir:url [ fhir:v "Task"^^xsd:anyURI ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

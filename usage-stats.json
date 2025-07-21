@@ -23,6 +23,21 @@
     ],
     "https://directory.mi-cie.org/or_org_id": [
       "Bundle.entry.resource.performer"
+    ],
+    "https://mi-cie.org/fhir/StructureDefinition/modified-by-user": [
+      "Bundle.entry.resource"
+    ],
+    "https://mi-cie.org/fhir/StructureDefinition/task-LegacyUpdatedDate": [
+      "Bundle.entry.resource"
+    ],
+    "https://mi-cie.org/fhir/StructureDefinition/task-closeReason": [
+      "Bundle.entry.resource"
+    ],
+    "https://mi-cie.org/fhir/StructureDefinition/task-requestType": [
+      "Bundle.entry.resource"
+    ],
+    "uri::mi-cie.org/requestedperformertask": [
+      "Bundle.entry.resource"
     ]
   }
 }

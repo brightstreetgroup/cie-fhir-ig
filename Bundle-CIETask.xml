@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="CIETask"/>
+  <type value="transaction"/>
+  <entry>
+    <resource>
+      <Task>
+        <id value="0o8x46421913blw5"/>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Task_0o8x46421913blw5"> </a><p class="res-header-id"><b>Generated Narrative: Task 0o8x46421913blw5</b></p><a name="0o8x46421913blw5"> </a><a name="hc0o8x46421913blw5"> </a><p><b>org/requestedperformertask</b>: <a href="Practitioner/a979df85-8ac2-4f93-8809-95208b800f87">Test Test</a></p><p><b>org/fhir/StructureDefinition/task-closeReason</b>: Other</p><p><b>org/fhir/StructureDefinition/task-LegacyUpdatedDate</b>: 06/16/2023T00:00:00.000Z</p><p><b>org/fhir/StructureDefinition/task-requestType</b>: completed</p><p><b>basedOn</b>: <a href="ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778">ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778</a></p><p><b>status</b>: Completed</p><p><b>businessStatus</b>: <span title="Codes:{https://mi-cie.org CLOSED}">closed</span></p><p><b>intent</b>: order</p><p><b>code</b>: <span title="Codes:{https://mi-cie.org OutReachTask_v2}">Need to do a outreach to the client.</span></p><p><b>description</b>: OutReach Task for social-navigation created for Subject Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8</p><p><b>for</b>: <a href="Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8">Unknown Unknown</a></p><p><b>authoredOn</b>: 2023-03-27 12:51:07+0000</p><p><b>requester</b>: <a href="Organization/CSA">Children's Services Agency (CSA)</a></p><p><b>owner</b>: <a href="Organization/MI211-GRYP">Michigan 211 Gryphon Place</a></p><p><b>note</b>: </p><blockquote><div/></blockquote><h3>Inputs</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{https://mi-cie.org/task-purpose purpose}">Purpose of Task</span></td><td>social-navigation</td></tr></table></div>
+        </text>
+        <extension url="uri::mi-cie.org/requestedperformertask">
+          <valueReference>
+            <reference value="Practitioner/a979df85-8ac2-4f93-8809-95208b800f87"/>
+            <type value="Practitioner"/>
+            <display value="Test Test"/>
+          </valueReference>
+        </extension>
+        <extension url="https://mi-cie.org/fhir/StructureDefinition/task-closeReason">
+          <valueReference>
+            <display value="Other"/>
+          </valueReference>
+        </extension>
+        <extension url="https://mi-cie.org/fhir/StructureDefinition/task-LegacyUpdatedDate">
+          <valueString value="06/16/2023T00:00:00.000Z"/>
+        </extension>
+        <extension url="https://mi-cie.org/fhir/StructureDefinition/task-requestType">
+          <valueReference>
+            <display value="completed"/>
+          </valueReference>
+        </extension>
+        <basedOn>
+          <reference value="ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778"/>
+          <type value="ServiceRequest"/>
+        </basedOn>
+        <status value="completed"/>
+        <businessStatus>
+          <coding>
+            <system value="https://mi-cie.org"/>
+            <code value="CLOSED"/>
+            <display value="closed"/>
+          </coding>
+        </businessStatus>
+        <intent value="order"/>
+        <code>
+          <coding>
+            <system value="https://mi-cie.org"/>
+            <code value="OutReachTask_v2"/>
+            <display value="Need to do a outreach to the client."/>
+          </coding>
+        </code>
+        <description value="OutReach Task for social-navigation created for Subject Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8"/>
+        <for>
+          <reference value="Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8"/>
+          <display value="Unknown Unknown"/>
+        </for>
+        <authoredOn value="2023-03-27T12:51:07.000Z"/>
+        <requester>
+          <reference value="Organization/CSA"/>
+          <type value="Organization"/>
+          <display value="Children's Services Agency (CSA)"/>
+        </requester>
+        <owner>
+          <reference value="Organization/MI211-GRYP"/>
+          <display value="Michigan 211 Gryphon Place"/>
+        </owner>
+        <note>
+          <text value=""/>
+        </note>
+        <input>
+          <type>
+            <coding>
+              <system value="https://mi-cie.org/task-purpose"/>
+              <code value="purpose"/>
+              <display value="Purpose of Task"/>
+            </coding>
+          </type>
+          <valueString value="social-navigation"/>
+        </input>
+      </Task>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Task"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <Task>
+        <id value="Inline-Instance-for-CIETask-1"/>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Task_Inline-Instance-for-CIETask-1"> </a><p class="res-header-id"><b>Generated Narrative: Task Inline-Instance-for-CIETask-1</b></p><a name="Inline-Instance-for-CIETask-1"> </a><a name="hcInline-Instance-for-CIETask-1"> </a><p><b>org/fhir/StructureDefinition/task-closeReason</b>: NotRecorded</p><p><b>org/fhir/StructureDefinition/task-requestType</b>: CLOSED</p><p><b>org/fhir/StructureDefinition/modified-by-user</b>: Test Test</p><p><b>basedOn</b>: </p><ul><li><a href="ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778">ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778</a></li><li><a href="Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8">Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8</a></li></ul><p><b>status</b>: Completed</p><p><b>businessStatus</b>: <span title="Codes:{https://mi-cie.org ResultNotRecorded_v2}">NotRecorded</span></p><p><b>intent</b>: order</p><p><b>code</b>: <span title="Codes:{https://mi-cie.org AttemptContactByPhone_v2}">Attempt to reach client by phone.</span></p><p><b>description</b>: Task to document an attempt to contact the subject</p><p><b>for</b>: <a href="Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8">Unknown Unknown</a></p><p><b>authoredOn</b>: 2020-06-16 12:20:12-0400</p><p><b>requester</b>: <a href="Practitioner/a979df85-8ac2-4f93-8809-95208b800f87">Practitioner/a979df85-8ac2-4f93-8809-95208b800f87</a></p><p><b>owner</b>: <a href="Organization/MI211-GRYP">Michigan 211 Gryphon Place</a></p><p><b>note</b>: </p><blockquote><div><p>06/16/2023, 12:20:12 pm test@gpcontactcenter.org has saved progress and ended this attempt.  Other</p>
+</div></blockquote></div>
+        </text>
+        <extension url="https://mi-cie.org/fhir/StructureDefinition/task-closeReason">
+          <valueString value="NotRecorded"/>
+        </extension>
+        <extension url="https://mi-cie.org/fhir/StructureDefinition/task-requestType">
+          <valueString value="CLOSED"/>
+        </extension>
+        <extension url="https://mi-cie.org/fhir/StructureDefinition/modified-by-user">
+          <valueString value="Test Test"/>
+        </extension>
+        <basedOn>
+          <reference value="ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778"/>
+          <type value="ServiceRequest"/>
+        </basedOn>
+        <basedOn>
+          <reference value="Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8"/>
+          <type value="Patient"/>
+        </basedOn>
+        <status value="completed"/>
+        <businessStatus>
+          <coding>
+            <system value="https://mi-cie.org"/>
+            <code value="ResultNotRecorded_v2"/>
+            <display value="NotRecorded"/>
+          </coding>
+        </businessStatus>
+        <intent value="order"/>
+        <code>
+          <coding>
+            <system value="https://mi-cie.org"/>
+            <code value="AttemptContactByPhone_v2"/>
+            <display value="Attempt to reach client by phone."/>
+          </coding>
+        </code>
+        <description value="Task to document an attempt to contact the subject"/>
+        <for>
+          <reference value="Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8"/>
+          <display value="Unknown Unknown"/>
+        </for>
+        <authoredOn value="2020-06-16T12:20:12-04:00"/>
+        <requester>
+          <reference value="Practitioner/a979df85-8ac2-4f93-8809-95208b800f87"/>
+          <type value="Practitioner"/>
+        </requester>
+        <owner>
+          <reference value="Organization/MI211-GRYP"/>
+          <display value="Michigan 211 Gryphon Place"/>
+        </owner>
+        <note>
+          <text value="06/16/2023, 12:20:12 pm test@gpcontactcenter.org has saved progress and ended this attempt.  Other"/>
+        </note>
+      </Task>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Task"/>
+    </request>
+  </entry>
+</Bundle>

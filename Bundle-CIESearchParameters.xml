@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="CIESearchParameters"/>
+  <type value="transaction"/>
+  <entry>
+    <resource>
+      <SearchParameter>
+        <id value="Inline-Instance-for-CIESearchParameters-1"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="SearchParameter_Inline-Instance-for-CIESearchParameters-1"> </a><p class="res-header-id"><b>Generated Narrative: SearchParameter Inline-Instance-for-CIESearchParameters-1</b></p><a name="Inline-Instance-for-CIESearchParameters-1"> </a><a name="hcInline-Instance-for-CIESearchParameters-1"> </a><p><b>url</b>: <a href="Bundle-CIESearchParameters.html">requester-or-org-id</a></p><p><b>name</b>: requester-or-org-id</p><p><b>status</b>: Active</p><p><b>description</b>: </p><div><p>Search by open referral id for an requester organization</p>
+</div><p><b>code</b>: requester-or-org-id</p><p><b>base</b>: ServiceRequest</p><p><b>type</b>: Token</p><p><b>expression</b>: ServiceRequest.requester.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)</p></div>
+        </text>
+        <url value="http://mi-cie.org/fhir/SearchParameter/requester-or-org-id"/>
+        <name value="requester-or-org-id"/>
+        <status value="active"/>
+        <description value="Search by open referral id for an requester organization"/>
+        <code value="requester-or-org-id"/>
+        <base value="ServiceRequest"/>
+        <type value="token"/>
+        <expression value="ServiceRequest.requester.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)"/>
+      </SearchParameter>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="SearchParameter"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <SearchParameter>
+        <id value="Inline-Instance-for-CIESearchParameters-2"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="SearchParameter_Inline-Instance-for-CIESearchParameters-2"> </a><p class="res-header-id"><b>Generated Narrative: SearchParameter Inline-Instance-for-CIESearchParameters-2</b></p><a name="Inline-Instance-for-CIESearchParameters-2"> </a><a name="hcInline-Instance-for-CIESearchParameters-2"> </a><p><b>url</b>: <a href="Bundle-CIESearchParameters.html">performer-or-org-id</a></p><p><b>name</b>: performer-or-org-id</p><p><b>status</b>: Active</p><p><b>description</b>: </p><div><p>Search by open referral id for an performer organization</p>
+</div><p><b>code</b>: performer-or-org-id</p><p><b>base</b>: ServiceRequest</p><p><b>type</b>: Token</p><p><b>expression</b>: ServiceRequest.performer.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)</p></div>
+        </text>
+        <url value="http://mi-cie.org/fhir/SearchParameter/performer-or-org-id"/>
+        <name value="performer-or-org-id"/>
+        <status value="active"/>
+        <description value="Search by open referral id for an performer organization"/>
+        <code value="performer-or-org-id"/>
+        <base value="ServiceRequest"/>
+        <type value="token"/>
+        <expression value="ServiceRequest.performer.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)"/>
+      </SearchParameter>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="SearchParameter"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <SearchParameter>
+        <id value="Inline-Instance-for-CIESearchParameters-3"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="SearchParameter_Inline-Instance-for-CIESearchParameters-3"> </a><p class="res-header-id"><b>Generated Narrative: SearchParameter Inline-Instance-for-CIESearchParameters-3</b></p><a name="Inline-Instance-for-CIESearchParameters-3"> </a><a name="hcInline-Instance-for-CIESearchParameters-3"> </a><p><b>url</b>: <a href="Bundle-CIESearchParameters.html">task-owner-or-org-id</a></p><p><b>name</b>: task-owner-or-org-id</p><p><b>status</b>: Active</p><p><b>description</b>: </p><div><p>Search Task by owner organization</p>
+</div><p><b>code</b>: task-owner-or-org-id</p><p><b>base</b>: Task</p><p><b>type</b>: Token</p><p><b>expression</b>: Task.owner.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)</p></div>
+        </text>
+        <url value="http://mi-cie.org/fhir/SearchParameter/task-owner-or-org-id"/>
+        <name value="task-owner-or-org-id"/>
+        <status value="active"/>
+        <description value="Search Task by owner organization"/>
+        <code value="task-owner-or-org-id"/>
+        <base value="Task"/>
+        <type value="token"/>
+        <expression value="Task.owner.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)"/>
+      </SearchParameter>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="SearchParameter"/>
+    </request>
+  </entry>
+</Bundle>

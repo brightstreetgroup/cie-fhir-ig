@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "ciefhirig",
   "status" : "draft",
-  "date" : "2025-07-21T08:08:03-04:00",
+  "date" : "2025-07-21T08:16:52-04:00",
   "publisher" : "Brighstreet Group",
   "contact" : [{
     "name" : "Brighstreet Group",
@@ -602,9 +602,9 @@
         "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Bundle/CIE-SearchParameter-ID"
+        "reference" : "Bundle/CIEBundleServiceRequest"
       },
-      "name" : "CIE-SearchParameter-ID",
+      "name" : "CIEBundleServiceRequest",
       "exampleBoolean" : true
     },
     {
@@ -613,9 +613,20 @@
         "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Bundle/CIEBundleServiceRequest"
+        "reference" : "Bundle/CIESearchParameters"
       },
-      "name" : "CIEBundleServiceRequest",
+      "name" : "CIESearchParameters",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/CIETask"
+      },
+      "name" : "CIETask",
       "exampleBoolean" : true
     }],
     "page" : {

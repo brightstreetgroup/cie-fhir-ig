@@ -1,31 +1,33 @@
 ciefhirig : Validation Results
 =========================================
 
-err = 11, warn = 21, info = 2
+err = 42, warn = 39, info = 2
 $--
 Generated $--. FHIR version $-- for cie.fhir.us#$-- (canonical = https://directory.mi-cie.org/cie/fhir/ig)
- Build Errors : 0 / 6 / 0
- /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIE-SearchParameter-ID : 0 / 9 / 4
+ Build Errors : 10 / 7 / 0
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIEBundleServiceRequest : 11 / 5 / 5
+ /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIESearchParameters : 0 / 9 / 4
+ /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIETask : 31 / 17 / 3
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us : 0 / 1 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/CIE-SearchParameter-ID.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/CIEBundleServiceRequest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/CIESearchParameters.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/CIETask.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 192, column 398: The link 'Practitioner/a979df85-8ac2-4f93-8809-95208b800f87' for "Test Test" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 192, column 721: The link 'ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778' for "ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 192, column 1253: The link 'Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8' for "Unknown Unknown" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 192, column 1402: The link 'Organization/CSA' for "Children's Services Agency (CSA)" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 192, column 1486: The link 'Organization/MI211-GRYP' for "Michigan 211 Gryphon Place" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 193, column 537: The link 'ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778' for "ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/ul/li/a at Line 193, column 663: The link 'Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8' for "Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 193, column 1162: The link 'Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8' for "Unknown Unknown" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 193, column 1311: The link 'Practitioner/a979df85-8ac2-4f93-8809-95208b800f87' for "Practitioner/a979df85-8ac2-4f93-8809-95208b800f87" cannot be resolved
+ERROR: Bundle-CIETask.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 193, column 1445: The link 'Organization/MI211-GRYP' for "Michigan 211 Gryphon Place" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/Bundle-CIE-SearchParameter-ID.json ==
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-1*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-1*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-2*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-2*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-3*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-3*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[0].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[1].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[2].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
 == fsh-generated/resources/Bundle-CIEBundleServiceRequest.json ==
 ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[0].fullUrl: UUIDs must be valid and lowercase (patient-1)
 WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[0].resource/*Patient/null*/.identifier[0].system: No definition could be found for URL value 'https://helpmegrow.org'
@@ -45,5 +47,64 @@ ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/
 ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.display: value cannot be empty
 ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.performer[0].extension[0]: The extension https://directory.mi-cie.org/or_org_id could not be found so is not allowed here
 WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.performer[0].extension[0].url: No definition could be found for URL value 'https://directory.mi-cie.org/or_org_id'
+== fsh-generated/resources/Bundle-CIESearchParameters.json ==
+WARNING: Bundle/CIESearchParameters: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-CIESearchParameters-1*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIESearchParameters: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-CIESearchParameters-1*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Bundle/CIESearchParameters: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-CIESearchParameters-2*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIESearchParameters: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-CIESearchParameters-2*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Bundle/CIESearchParameters: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-CIESearchParameters-3*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIESearchParameters: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-CIESearchParameters-3*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Bundle/CIESearchParameters: Bundle.entry[0].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIESearchParameters: Bundle.entry[1].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIESearchParameters: Bundle.entry[2].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+== fsh-generated/resources/Bundle-CIETask.json ==
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[0]: The extension uri::mi-cie.org/requestedperformertask could not be found so is not allowed here
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[0].url: No definition could be found for URL value 'uri::mi-cie.org/requestedperformertask'
+ERROR: Bundle/CIETask: Bundle.entry[0]: Bundle entry missing fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[0].value.ofType(Reference): Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[0].value.ofType(Reference): Unable to resolve resource with reference 'Practitioner/a979df85-8ac2-4f93-8809-95208b800f87'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[1]: The extension https://mi-cie.org/fhir/StructureDefinition/task-closeReason could not be found so is not allowed here
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[1].url: No definition could be found for URL value 'https://mi-cie.org/fhir/StructureDefinition/task-closeReason'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[2]: The extension https://mi-cie.org/fhir/StructureDefinition/task-LegacyUpdatedDate could not be found so is not allowed here
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[2].url: No definition could be found for URL value 'https://mi-cie.org/fhir/StructureDefinition/task-LegacyUpdatedDate'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[3]: The extension https://mi-cie.org/fhir/StructureDefinition/task-requestType could not be found so is not allowed here
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.extension[3].url: No definition could be found for URL value 'https://mi-cie.org/fhir/StructureDefinition/task-requestType'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.basedOn[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.basedOn[0]: Unable to resolve resource with reference 'ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778'
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.businessStatus.coding[0].system: A definition for CodeSystem 'https://mi-cie.org' could not be found, so the code cannot be validated
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.businessStatus.coding[0].system: No definition could be found for URL value 'https://mi-cie.org'
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.code.coding[0]: A definition for CodeSystem 'https://mi-cie.org' could not be found, so the code cannot be validated
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.code.coding[0].system: No definition could be found for URL value 'https://mi-cie.org'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.for: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.for: Unable to resolve resource with reference 'Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.requester: Unable to resolve resource with reference 'Organization/CSA'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.owner: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.owner: Unable to resolve resource with reference 'Organization/MI211-GRYP'
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.note[0].text: Constraint failed: ele-1: 'All FHIR elements must have a @value or children' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+ERROR: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.note[0].text: value cannot be empty
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.input[0].type.coding[0].system: A definition for CodeSystem 'https://mi-cie.org/task-purpose' could not be found, so the code cannot be validated
+WARNING: Bundle/CIETask: Bundle.entry[0].resource/*Task/0o8x46421913blw5*/.input[0].type.coding[0].system: No definition could be found for URL value 'https://mi-cie.org/task-purpose'
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.extension[0]: The extension https://mi-cie.org/fhir/StructureDefinition/task-closeReason could not be found so is not allowed here
+WARNING: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.extension[0].url: No definition could be found for URL value 'https://mi-cie.org/fhir/StructureDefinition/task-closeReason'
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.extension[1]: The extension https://mi-cie.org/fhir/StructureDefinition/task-requestType could not be found so is not allowed here
+WARNING: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.extension[1].url: No definition could be found for URL value 'https://mi-cie.org/fhir/StructureDefinition/task-requestType'
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.extension[2]: The extension https://mi-cie.org/fhir/StructureDefinition/modified-by-user could not be found so is not allowed here
+WARNING: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.extension[2].url: No definition could be found for URL value 'https://mi-cie.org/fhir/StructureDefinition/modified-by-user'
+ERROR: Bundle/CIETask: Bundle.entry[1]: Bundle entry missing fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.basedOn[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.basedOn[0]: Unable to resolve resource with reference 'ServiceRequest/94172b68-5819-49c1-b27f-b2ca51b67778'
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.basedOn[1]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.basedOn[1]: Unable to resolve resource with reference 'Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8'
+WARNING: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.businessStatus.coding[0]: A definition for CodeSystem 'https://mi-cie.org' could not be found, so the code cannot be validated
+WARNING: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.businessStatus.coding[0].system: No definition could be found for URL value 'https://mi-cie.org'
+WARNING: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.code.coding[0]: A definition for CodeSystem 'https://mi-cie.org' could not be found, so the code cannot be validated
+WARNING: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.code.coding[0].system: No definition could be found for URL value 'https://mi-cie.org'
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.for: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.for: Unable to resolve resource with reference 'Patient/42ae2d0a-280c-433e-a99e-5e75e2fd93d8'
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.requester: Unable to resolve resource with reference 'Practitioner/a979df85-8ac2-4f93-8809-95208b800f87'
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.owner: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/CIETask: Bundle.entry[1].resource/*Task/Inline-Instance-for-CIETask-1*/.owner: Unable to resolve resource with reference 'Organization/MI211-GRYP'
 == fsh-generated/resources/ImplementationGuide-cie.fhir.us.json ==
 WARNING: ImplementationGuide/cie.fhir.us: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
