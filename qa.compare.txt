@@ -5,17 +5,27 @@ err = 11, warn = 21, info = 2
 $--
 Generated $--. FHIR version $-- for cie.fhir.us#$-- (canonical = https://directory.mi-cie.org/cie/fhir/ig)
  Build Errors : 0 / 6 / 0
+ /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIE-SearchParameter-ID : 0 / 9 / 4
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIEBundleServiceRequest : 11 / 5 / 5
- /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-GOFSH-GENERATED-ID-0 : 0 / 9 / 4
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us : 0 / 1 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/CIE-SearchParameter-ID.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/CIEBundleServiceRequest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/GOFSH-GENERATED-ID-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Bundle-CIE-SearchParameter-ID.json ==
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-1*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-1*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-2*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-2*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-3*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-CIE-SearchParameter-ID-3*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[0].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[1].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
+WARNING: Bundle/CIE-SearchParameter-ID: Bundle.entry[2].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
 == fsh-generated/resources/Bundle-CIEBundleServiceRequest.json ==
 ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[0].fullUrl: UUIDs must be valid and lowercase (patient-1)
 WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[0].resource/*Patient/null*/.identifier[0].system: No definition could be found for URL value 'https://helpmegrow.org'
@@ -35,15 +45,5 @@ ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/
 ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.display: value cannot be empty
 ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.performer[0].extension[0]: The extension https://directory.mi-cie.org/or_org_id could not be found so is not allowed here
 WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.performer[0].extension[0].url: No definition could be found for URL value 'https://directory.mi-cie.org/or_org_id'
-== fsh-generated/resources/Bundle-GOFSH-GENERATED-ID-0.json ==
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-GOFSH-GENERATED-ID-0-1*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[0].resource/*SearchParameter/Inline-Instance-for-GOFSH-GENERATED-ID-0-1*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-GOFSH-GENERATED-ID-0-2*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[1].resource/*SearchParameter/Inline-Instance-for-GOFSH-GENERATED-ID-0-2*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-GOFSH-GENERATED-ID-0-3*/.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[2].resource/*SearchParameter/Inline-Instance-for-GOFSH-GENERATED-ID-0-3*/: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[0].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[1].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
-WARNING: Bundle/GOFSH-GENERATED-ID-0: Bundle.entry[2].resource.expression: The type specified in ofType() is http://hl7.org/fhir/StructureDefinition/String which is not a possible candidate for the existing types () in the expression as(String). Check the paths and types to be sure this is what is intended
 == fsh-generated/resources/ImplementationGuide-cie.fhir.us.json ==
 WARNING: ImplementationGuide/cie.fhir.us: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'

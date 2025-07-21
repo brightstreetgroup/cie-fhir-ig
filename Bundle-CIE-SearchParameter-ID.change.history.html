@@ -1,9 +1,13 @@
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Home -  v0.1.0</title>
+    <title> -  v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -45,8 +49,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"1"}
-    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <style type="text/css">h2{--heading-prefix:""}
+    h3,h4,h5,h6{--heading-prefix:""}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -119,7 +123,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+          
 
         </ul>
       </div>  <!-- /container -->
@@ -131,16 +135,9 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<style type="text/css">
-h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
-h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
-h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
-h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
-h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
-</style>
-<div class="col-12">
+
+<div style="counter-reset: section 10" class="col-12">
   <!--ReleaseHeader--><p id="publish-box">ciefhirig - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://directory.mi-cie.org/cie/fhir/ig/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Home</h2>
   
 
 
@@ -148,64 +145,49 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-  <table class="colsd">
 
-    <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us"/></span>
-      </td>
-      <td><i>Version</i>:
-      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us|0.1.0"/></span>
-      </td>
-    </tr>
 
-    <tr>
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Bundle-CIE-SearchParameter-ID.html">Narrative Content</a>
+  </li>
 
 
 
+  
+    <li>
+      <a href="Bundle-CIE-SearchParameter-ID.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-CIE-SearchParameter-ID.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Bundle-CIE-SearchParameter-ID.ttl.html">TTL</a>
+    </li>
+  
 
 
 
-
-      <td colspan="4">
-        
-          Draft
-          
-            as of 2025-07-21
-          
-        
-      </td>
+</ul>
 
 
+  <a name="root"> </a>
+  <h2 id="root">: Bundle/CIE-SearchParameter-ID - Change History</h2>
+  <p>History of changes for CIE-SearchParameter-ID .</p>
 
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">ciefhirig</span></td>
-    </tr>
-
-
-
-
-  </table>
-
-
-
-
-
-
-
-
-
-    <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
-</div>
-<h1 id="community-information-exchange-implementation-guide">Community Information Exchange Implementation Guide</h1>
-
-<p>The Community Information Exchange (CIE) Hub for Social Determinants of Health (SDOH) is a collaborative, standards-based platform designed to facilitate seamless data sharing across healthcare providers, community-based organizations, and social service agencies. Built on HL7® FHIR® (Fast Healthcare Interoperability Resources), the CIE Hub enables secure, interoperable exchange of SDOH data—such as housing, food security, transportation, and employment—to support whole-person care. By leveraging FHIR's flexible and extensible data model, the CIE Hub promotes real-time coordination, reduces fragmentation, and empowers communities to address social needs as integral components of health and well-being.</p>
-
-<p><img src="assets/images/example.png" alt="Logo" width="600" /></p>
-
-
+  
 
 </div>
+
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -213,6 +195,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/tabs.js"> </script>
 
   <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>

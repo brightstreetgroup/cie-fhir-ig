@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "ciefhirig",
   "status" : "draft",
-  "date" : "2025-07-21T08:05:45-04:00",
+  "date" : "2025-07-21T08:08:03-04:00",
   "publisher" : "Brighstreet Group",
   "contact" : [{
     "name" : "Brighstreet Group",
@@ -602,9 +602,9 @@
         "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Bundle/CIEBundleServiceRequest"
+        "reference" : "Bundle/CIE-SearchParameter-ID"
       },
-      "name" : "CIEBundleServiceRequest",
+      "name" : "CIE-SearchParameter-ID",
       "exampleBoolean" : true
     },
     {
@@ -613,9 +613,9 @@
         "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Bundle/GOFSH-GENERATED-ID-0"
+        "reference" : "Bundle/CIEBundleServiceRequest"
       },
-      "name" : "GOFSH-GENERATED-ID-0",
+      "name" : "CIEBundleServiceRequest",
       "exampleBoolean" : true
     }],
     "page" : {

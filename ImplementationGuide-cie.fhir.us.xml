@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="ciefhirig"/>
   <status value="draft"/>
-  <date value="2025-07-21T08:05:45-04:00"/>
+  <date value="2025-07-21T08:08:03-04:00"/>
   <publisher value="Brighstreet Group"/>
   <contact>
     <name value="Brighstreet Group"/>
@@ -446,9 +446,9 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/CIEBundleServiceRequest"/>
+        <reference value="Bundle/CIE-SearchParameter-ID"/>
       </reference>
-      <name value="CIEBundleServiceRequest"/>
+      <name value="CIE-SearchParameter-ID"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -456,9 +456,9 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/GOFSH-GENERATED-ID-0"/>
+        <reference value="Bundle/CIEBundleServiceRequest"/>
       </reference>
-      <name value="GOFSH-GENERATED-ID-0"/>
+      <name value="CIEBundleServiceRequest"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>

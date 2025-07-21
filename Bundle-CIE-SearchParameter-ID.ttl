@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://directory.mi-cie.org/cie/fhir/ig/Bundle/CIE-SearchParameter-ID> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CIE-SearchParameter-ID"] ; # 
+  fhir:type [ fhir:v "transaction"] ; # 
+  fhir:entry ( [
+     fhir:resource ( [
+       a fhir:SearchParameter ;
+       fhir:id [ fhir:v "Inline-Instance-for-CIE-SearchParameter-ID-1" ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SearchParameter_Inline-Instance-for-CIE-SearchParameter-ID-1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SearchParameter Inline-Instance-for-CIE-SearchParameter-ID-1</b></p><a name=\"Inline-Instance-for-CIE-SearchParameter-ID-1\"> </a><a name=\"hcInline-Instance-for-CIE-SearchParameter-ID-1\"> </a><p><b>url</b>: <a href=\"Bundle-CIE-SearchParameter-ID.html\">requester-or-org-id</a></p><p><b>name</b>: requester-or-org-id</p><p><b>status</b>: Active</p><p><b>description</b>: </p><div><p>Search by open referral id for an requester organization</p>\n</div><p><b>code</b>: requester-or-org-id</p><p><b>base</b>: ServiceRequest</p><p><b>type</b>: Token</p><p><b>expression</b>: ServiceRequest.requester.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)</p></div>"^^rdf:XMLLiteral
+       ] ;
+       fhir:url [ fhir:v "http://mi-cie.org/fhir/SearchParameter/requester-or-org-id"^^xsd:anyURI ] ;
+       fhir:name [ fhir:v "requester-or-org-id" ] ;
+       fhir:status [ fhir:v "active" ] ;
+       fhir:description [ fhir:v "Search by open referral id for an requester organization" ] ;
+       fhir:code [ fhir:v "requester-or-org-id" ] ;
+       fhir:base ( [ fhir:v "ServiceRequest" ] ) ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:expression [ fhir:v "ServiceRequest.requester.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)" ]
+     ] ) ;
+     fhir:request [
+       fhir:method [ fhir:v "POST" ] ;
+       fhir:url [ fhir:v "SearchParameter"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:resource ( [
+       a fhir:SearchParameter ;
+       fhir:id [ fhir:v "Inline-Instance-for-CIE-SearchParameter-ID-2" ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SearchParameter_Inline-Instance-for-CIE-SearchParameter-ID-2\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SearchParameter Inline-Instance-for-CIE-SearchParameter-ID-2</b></p><a name=\"Inline-Instance-for-CIE-SearchParameter-ID-2\"> </a><a name=\"hcInline-Instance-for-CIE-SearchParameter-ID-2\"> </a><p><b>url</b>: <a href=\"Bundle-CIE-SearchParameter-ID.html\">performer-or-org-id</a></p><p><b>name</b>: performer-or-org-id</p><p><b>status</b>: Active</p><p><b>description</b>: </p><div><p>Search by open referral id for an performer organization</p>\n</div><p><b>code</b>: performer-or-org-id</p><p><b>base</b>: ServiceRequest</p><p><b>type</b>: Token</p><p><b>expression</b>: ServiceRequest.performer.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)</p></div>"^^rdf:XMLLiteral
+       ] ;
+       fhir:url [ fhir:v "http://mi-cie.org/fhir/SearchParameter/performer-or-org-id"^^xsd:anyURI ] ;
+       fhir:name [ fhir:v "performer-or-org-id" ] ;
+       fhir:status [ fhir:v "active" ] ;
+       fhir:description [ fhir:v "Search by open referral id for an performer organization" ] ;
+       fhir:code [ fhir:v "performer-or-org-id" ] ;
+       fhir:base ( [ fhir:v "ServiceRequest" ] ) ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:expression [ fhir:v "ServiceRequest.performer.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)" ]
+     ] ) ;
+     fhir:request [
+       fhir:method [ fhir:v "POST" ] ;
+       fhir:url [ fhir:v "SearchParameter"^^xsd:anyURI ]
+     ]
+  ] [
+     fhir:resource ( [
+       a fhir:SearchParameter ;
+       fhir:id [ fhir:v "Inline-Instance-for-CIE-SearchParameter-ID-3" ] ;
+       fhir:text [
+         fhir:status [ fhir:v "generated" ] ;
+         fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"SearchParameter_Inline-Instance-for-CIE-SearchParameter-ID-3\"> </a><p class=\"res-header-id\"><b>Generated Narrative: SearchParameter Inline-Instance-for-CIE-SearchParameter-ID-3</b></p><a name=\"Inline-Instance-for-CIE-SearchParameter-ID-3\"> </a><a name=\"hcInline-Instance-for-CIE-SearchParameter-ID-3\"> </a><p><b>url</b>: <a href=\"Bundle-CIE-SearchParameter-ID.html\">task-owner-or-org-id</a></p><p><b>name</b>: task-owner-or-org-id</p><p><b>status</b>: Active</p><p><b>description</b>: </p><div><p>Search Task by owner organization</p>\n</div><p><b>code</b>: task-owner-or-org-id</p><p><b>base</b>: Task</p><p><b>type</b>: Token</p><p><b>expression</b>: Task.owner.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)</p></div>"^^rdf:XMLLiteral
+       ] ;
+       fhir:url [ fhir:v "http://mi-cie.org/fhir/SearchParameter/task-owner-or-org-id"^^xsd:anyURI ] ;
+       fhir:name [ fhir:v "task-owner-or-org-id" ] ;
+       fhir:status [ fhir:v "active" ] ;
+       fhir:description [ fhir:v "Search Task by owner organization" ] ;
+       fhir:code [ fhir:v "task-owner-or-org-id" ] ;
+       fhir:base ( [ fhir:v "Task" ] ) ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:expression [ fhir:v "Task.owner.extension.where(url='https://directory.mi-cie.org/or_org_id').value.as(String)" ]
+     ] ) ;
+     fhir:request [
+       fhir:method [ fhir:v "POST" ] ;
+       fhir:url [ fhir:v "SearchParameter"^^xsd:anyURI ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
