@@ -1,18 +1,18 @@
-Instance: CIE-SearchParameter-ID
+Instance: CIESearchParameters
 InstanceOf: Bundle
 Usage: #example
 * type = #transaction
 * entry[0].request.method = #POST
 * entry[=].request.url = "SearchParameter"
-* entry[=].resource = Inline-Instance-for-CIE-SearchParameter-ID-1
+* entry[=].resource = Inline-Instance-for-CIESearchParameters-1
 * entry[+].request.method = #POST
 * entry[=].request.url = "SearchParameter"
-* entry[=].resource = Inline-Instance-for-CIE-SearchParameter-ID-2
+* entry[=].resource = Inline-Instance-for-CIESearchParameters-2
 * entry[+].request.method = #POST
 * entry[=].request.url = "SearchParameter"
-* entry[=].resource = Inline-Instance-for-CIE-SearchParameter-ID-3
+* entry[=].resource = Inline-Instance-for-CIESearchParameters-3
 
-Instance: Inline-Instance-for-CIE-SearchParameter-ID-1
+Instance: Inline-Instance-for-CIESearchParameters-1
 InstanceOf: SearchParameter
 Usage: #inline
 * url = "http://mi-cie.org/fhir/SearchParameter/requester-or-org-id"
@@ -24,7 +24,7 @@ Usage: #inline
 * status = #active
 * description = "Search by open referral id for an requester organization"
 
-Instance: Inline-Instance-for-CIE-SearchParameter-ID-2
+Instance: Inline-Instance-for-CIESearchParameters-2
 InstanceOf: SearchParameter
 Usage: #inline
 * url = "http://mi-cie.org/fhir/SearchParameter/performer-or-org-id"
@@ -36,7 +36,7 @@ Usage: #inline
 * status = #active
 * description = "Search by open referral id for an performer organization"
 
-Instance: Inline-Instance-for-CIE-SearchParameter-ID-3
+Instance: Inline-Instance-for-CIESearchParameters-3
 InstanceOf: SearchParameter
 Usage: #inline
 * url = "http://mi-cie.org/fhir/SearchParameter/task-owner-or-org-id"
