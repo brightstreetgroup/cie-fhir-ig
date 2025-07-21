@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.0.1"] ; # 
   fhir:name [ fhir:v "ciefhirig"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-21T08:25:08-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-21T12:38:32-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Brighstreet Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Brighstreet Group" ] ;

@@ -2,8 +2,8 @@ ciefhirig : Validation Results
 =========================================
 
 err = 42, warn = 39, info = 2
-IG Publisher Version: 2.0.8 Out of date - current version is 2.0.9
-Generated Mon Jul 21 08:25:44 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.0.1 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
+IG Publisher Version: 2.0.8 Out of date - current version is 2.0.10
+Generated Mon Jul 21 12:39:05 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.0.1 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
  Build Errors : 10 / 7 / 0
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIEBundleServiceRequest : 11 / 5 / 5
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIESearchParameters : 0 / 9 / 4
