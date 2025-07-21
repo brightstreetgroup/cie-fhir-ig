@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:sr-1",
+      "request": {
+        "method": "POST",
+        "url": "ServiceRequest"
+      },
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "status": "active",
+        "intent": "original-order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://uphie.org",
+                "code": "sdoh-screening",
+                "display": "SDOH Screening"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/7d632541-f883-4121-b981-ce8e0b30ca71"
+        },
+        "requester": {
+          "reference": "Patient/7d632541-f883-4121-b981-ce8e0b30ca71"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-health-1",
+      "request": { "method": "POST", "url": "Observation" },
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [{ "system": "http://loinc.org", "code": "76506-4", "display": "In last 30 days, did health keep you from usual activities [HVS]" }],
+          "text": "In the past month, did poor physical or mental health keep you from doing your usual activities?"
+        },
+        "valueBoolean": true,
+        "subject": { "reference": "Patient/7d632541-f883-4121-b981-ce8e0b30ca71" },
+        "effectiveDateTime": "2025-07-01",
+        "basedOn": [{ "reference": "urn:uuid:sr-1", "type": "ServiceRequest" }]
+      }
+    }
+  ]
+}

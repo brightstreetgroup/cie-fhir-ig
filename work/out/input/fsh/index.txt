@@ -1,0 +1,2 @@
+Name                  Type      File
+GOFSH-GENERATED-ID-0  Instance  instances/GOFSH-GENERATED-ID-0.fsh

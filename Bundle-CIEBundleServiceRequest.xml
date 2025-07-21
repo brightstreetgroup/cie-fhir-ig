@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="CIEBundleServiceRequest"/>
+  <type value="transaction"/>
+  <entry>
+    <fullUrl value="urn:uuid:patient-1"/>
+    <resource>
+      <Patient>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_null"> </a><p class="res-header-id"><b>Generated Narrative: Patient </b></p><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Test Test  (no stated gender), DoB: 2020-12-12 ( PersonId: 22990393)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">1314 Test Edge, BAY, MI, 49120</td></tr><tr><td style="background-color: #f3f5da" title="Language spoken">Language:</td><td colspan="3"><span title="Codes:{urn:ietf:bcp:47 en-US}">English</span></td></tr><tr><td style="background-color: #f3f5da" title="Nominated Contact: Mother">Mother:</td><td colspan="3"><ul><li>ph: (111)-111-1111(Mobile)</li></ul></td></tr></table></div>
+        </text>
+        <identifier>
+          <type>
+            <text value="PersonId"/>
+          </type>
+          <system value="https://helpmegrow.org"/>
+          <value value="22990393"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <family value="Test"/>
+          <given value="Test"/>
+        </name>
+        <birthDate value="2020-12-12"/>
+        <address>
+          <text value="1314 Test Edge, BAY, MI, 49120"/>
+          <line value="1314 Test Edge"/>
+          <city value="Bay"/>
+          <district value="BAY"/>
+          <state value="MI"/>
+          <postalCode value="49120"/>
+        </address>
+        <contact>
+          <relationship>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+              <code value="NMTH"/>
+              <display value="Mother"/>
+            </coding>
+          </relationship>
+          <telecom>
+            <system value="phone"/>
+            <value value="(111)-111-1111"/>
+            <use value="mobile"/>
+            <rank value="1"/>
+          </telecom>
+        </contact>
+        <communication>
+          <language>
+            <coding>
+              <system value="urn:ietf:bcp:47"/>
+              <code value="en-US"/>
+              <display value="English"/>
+            </coding>
+          </language>
+        </communication>
+      </Patient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Patient"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:sr-1"/>
+    <resource>
+      <ServiceRequest>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="ServiceRequest_null"> </a><p class="res-header-id"><b>Generated Narrative: ServiceRequest </b></p><p><b>status</b>: Active</p><p><b>intent</b>: Original Order</p><p><b>code</b>: <span title="Codes:{https://directory.mi-cie.org/or_service_id 211021}">CASE/CARE MANAGEMENT</span></p><p><b>subject</b>: <a href="Bundle-CIEBundleServiceRequest.html#urn-uuid-patient-1">Morgan Gallaty</a></p><p><b>authoredOn</b>: 2025-05-20 18:34:38-0400</p><p><b>requester</b>: <code></code></p><p><b>performer</b>: United Way of Bay County</p><p><b>note</b>: By Kristina Gary @2025-05-21 14:01:19+0000</p><blockquote><div><p>{{PUT IN NOTE HERE}}</p>
+</div></blockquote></div>
+        </text>
+        <status value="active"/>
+        <intent value="original-order"/>
+        <code>
+          <coding>
+            <system value="https://directory.mi-cie.org/or_service_id"/>
+            <code value="211021"/>
+            <display value="CASE/CARE MANAGEMENT"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:patient-1"/>
+          <display value="Morgan Gallaty"/>
+        </subject>
+        <authoredOn value="2025-05-20T18:34:38-04:00"/>
+        <requester>
+          <reference value=""/>
+          <type value=""/>
+          <display value=""/>
+        </requester>
+        <performer>
+          <extension url="https://directory.mi-cie.org/or_org_id">
+            <valueString value="38562"/>
+          </extension>
+          <display value="United Way of Bay County"/>
+        </performer>
+        <note>
+          <authorString value="Kristina Gary"/>
+          <time value="2025-05-21T14:01:19.816Z"/>
+          <text value="{{PUT IN NOTE HERE}}"/>
+        </note>
+      </ServiceRequest>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ServiceRequest"/>
+    </request>
+  </entry>
+</Bundle>

@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ciefhirig"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-09T20:59:18-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-21T07:59:22-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Brighstreet Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Brighstreet Group" ] ;
@@ -823,34 +823,17 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "StructureDefinition:resource"
+           fhir:v "Bundle"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEPatient> ;
-         fhir:reference [ fhir:v "StructureDefinition/CIEPatient" ]
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Bundle/CIEBundleServiceRequest> ;
+         fhir:reference [ fhir:v "Bundle/CIEBundleServiceRequest" ]
        ] ;
-       fhir:name [ fhir:v "CIEPatient" ] ;
+       fhir:name [ fhir:v "CIEBundleServiceRequest" ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEServiceRequest> ;
-         fhir:reference [ fhir:v "StructureDefinition/CIEServiceRequest" ]
-       ] ;
-       fhir:name [ fhir:v "CIEServiceRequest" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] ) ;
      fhir:page [

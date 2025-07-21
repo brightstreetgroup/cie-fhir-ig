@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "ciefhirig",
   "status" : "draft",
-  "date" : "2025-07-09T20:59:18-04:00",
+  "date" : "2025-07-21T07:59:22-04:00",
   "publisher" : "Brighstreet Group",
   "contact" : [{
     "name" : "Brighstreet Group",
@@ -599,24 +599,13 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/CIEPatient"
+        "reference" : "Bundle/CIEBundleServiceRequest"
       },
-      "name" : "CIEPatient",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/CIEServiceRequest"
-      },
-      "name" : "CIEServiceRequest",
-      "exampleBoolean" : false
+      "name" : "CIEBundleServiceRequest",
+      "exampleBoolean" : true
     }],
     "page" : {
       "extension" : [{

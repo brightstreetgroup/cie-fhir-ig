@@ -1,60 +1,37 @@
 ciefhirig : Validation Results
 =========================================
 
-err = 10, warn = 24, info = 5
-IG Publisher Version: 2.0.8
-Generated Wed Jul 09 21:00:14 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
- Build Errors : 6 / 6 / 0
+err = 11, warn = 11, info = 2
+IG Publisher Version: 2.0.8 Out of date - current version is 2.0.9
+Generated Mon Jul 21 07:59:52 EDT 2025. FHIR version 4.0.1 for cie.fhir.us#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
+ Build Errors : 0 / 5 / 0
+ /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIEBundleServiceRequest : 11 / 5 / 5
  /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us : 0 / 1 / 1
- /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/StructureDefinition-CIEPatient : 0 / 12 / 6
- /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/StructureDefinition-CIEServiceRequest : 10 / 5 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CIEPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CIEServiceRequest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/a at Line 551, column 867: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.url' for "url" cannot be resolved (valid targets: 134 targets)
-ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/a at Line 556, column 920: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]' for "Slices for value[x]" cannot be resolved (valid targets: 134 targets)
-ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/a at Line 561, column 972: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]:valueString' for "value[x]:valueString" cannot be resolved (valid targets: 134 targets)
-ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/table/tr/td/a at Line 1476, column 867: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.url' for "url" cannot be resolved (valid targets: 134 targets)
-ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/table/tr/td/a at Line 1481, column 920: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]' for "Slices for value[x]" cannot be resolved (valid targets: 134 targets)
-ERROR: StructureDefinition-CIEServiceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/div/table/tr/td/span/div/div/table/tr/td/a at Line 1486, column 972: The link 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]:valueString' for "value[x]:valueString" cannot be resolved (valid targets: 134 targets)
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/CIEBundleServiceRequest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Bundle-CIEBundleServiceRequest.json ==
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[0].fullUrl: UUIDs must be valid and lowercase (patient-1)
+WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[0].resource/*Patient/null*/.identifier[0].system: No definition could be found for URL value 'https://helpmegrow.org'
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[0].resource/*Patient/null*/.contact[0].relationship[0].coding[0].code: Unknown code 'NMTH' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v2-0131' version '2.0.0'
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[0].resource/*Patient/null*/.communication[0].language.coding[0].display: Wrong Display Name 'English' for urn:ietf:bcp:47#en-US. Valid display is one of 6 choices: 'English (Region=United States)', 'English (United States)', 'English (Region=United States)', 'English (Region=United States)', 'English (United States)' or 'English (Region=United States)' (for the language(s) 'en-US')
+INFORMATION: Bundle/CIEBundleServiceRequest: Bundle.entry[0].resource/*Patient/null*/.communication[0].language: None of the codings provided are in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a coding is recommended to come from this value set (codes = urn:ietf:bcp:47#en-US)
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].fullUrl: UUIDs must be valid and lowercase (sr-1)
+WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.code.coding[0].system: A definition for CodeSystem 'https://directory.mi-cie.org/or_service_id' could not be found, so the code cannot be validated
+WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.code.coding[0].system: No definition could be found for URL value 'https://directory.mi-cie.org/or_service_id'
+INFORMATION: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.subject: Details for urn:uuid:patient-1 matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
+WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester: A Reference without an actual reference or identifier should have a display
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.reference: Constraint failed: ele-1: 'All FHIR elements must have a @value or children' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.reference: value cannot be empty
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.type: Constraint failed: ele-1: 'All FHIR elements must have a @value or children' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.type: value cannot be empty
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.display: Constraint failed: ele-1: 'All FHIR elements must have a @value or children' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.requester.display: value cannot be empty
+ERROR: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.performer[0].extension[0]: The extension https://directory.mi-cie.org/or_org_id could not be found so is not allowed here
+WARNING: Bundle/CIEBundleServiceRequest: Bundle.entry[1].resource/*ServiceRequest/null*/.performer[0].extension[0].url: No definition could be found for URL value 'https://directory.mi-cie.org/or_org_id'
 == fsh-generated/resources/ImplementationGuide-cie.fhir.us.json ==
 WARNING: ImplementationGuide/cie.fhir.us: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
-== fsh-generated/resources/StructureDefinition-CIEPatient.json ==
-INFORMATION: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[43].pattern.ofType(string): value should not start or finish with whitespace '1314 Test Edge '
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[57].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://loinc.org' could not be found, so the code cannot be validated
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[57].pattern.ofType(CodeableConcept).coding[0].system: No definition could be found for URL value 'https://loinc.org'
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[84].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.differential.element[13].pattern.ofType(string): value should not start or finish with whitespace '1314 Test Edge '
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.differential.element[18].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://loinc.org' could not be found, so the code cannot be validated
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.differential.element[18].pattern.ofType(CodeableConcept).coding[0].system: No definition could be found for URL value 'https://loinc.org'
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.differential.element[26].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-INFORMATION: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[29].pattern.ofType(string): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[29].pattern.ofType(string): The repeating element has a pattern value for a primitive type. The DotNet validator will not apply this to all the repeats - this is an error
-INFORMATION: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[43].pattern.ofType(string): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[43].pattern.ofType(string): The repeating element has a pattern value for a primitive type. The DotNet validator will not apply this to all the repeats - this is an error
-INFORMATION: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[57].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-INFORMATION: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[64].pattern.ofType(string): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-WARNING: StructureDefinition/CIEPatient: StructureDefinition.snapshot.element[64].pattern.ofType(string): The repeating element has a pattern value for a primitive type. The DotNet validator will not apply this to all the repeats - this is an error
-WARNING: StructureDefinition.where(url = 'https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEPatient'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-CIEServiceRequest.json ==
-ERROR: StructureDefinition.differential.element[5]: No match found for ServiceRequest.performer.extension.extension in the generated snapshot: check that the path and definitions are legal in the differential (including order)
-ERROR: StructureDefinition.differential.element[6]: No match found for ServiceRequest.performer.extension.url in the generated snapshot: check that the path and definitions are legal in the differential (including order)
-ERROR: StructureDefinition.differential.element[7]: No match found for ServiceRequest.performer.extension.value[x] in the generated snapshot: check that the path and definitions are legal in the differential (including order)
-ERROR: StructureDefinition.differential.element[8]: No match found for ServiceRequest.performer.extension.value[x]:valueString in the generated snapshot: check that the path and definitions are legal in the differential (including order)
-ERROR: https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEServiceRequest: The profile https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEServiceRequest has 4 elements in the differential (id: ServiceRequest.performer.extension.extension, id: ServiceRequest.performer.extension.url, id: ServiceRequest.performer.extension.value[x], id: ServiceRequest.performer.extension.value[x]:valueString) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
-WARNING: StructureDefinition/CIEServiceRequest: StructureDefinition.snapshot.element[20].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://directory.mi-cie.org/or_service_id' could not be found, so the code cannot be validated
-WARNING: StructureDefinition/CIEServiceRequest: StructureDefinition.snapshot.element[20].pattern.ofType(CodeableConcept).coding[0].system: No definition could be found for URL value 'https://directory.mi-cie.org/or_service_id'
-ERROR: StructureDefinition/CIEServiceRequest: StructureDefinition.snapshot.element[23].pattern.ofType(Reference): Unable to resolve resource with reference 'Patient/example'
-WARNING: StructureDefinition/CIEServiceRequest: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://directory.mi-cie.org/or_service_id' could not be found, so the code cannot be validated
-WARNING: StructureDefinition/CIEServiceRequest: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0].system: No definition could be found for URL value 'https://directory.mi-cie.org/or_service_id'
-ERROR: StructureDefinition/CIEServiceRequest: StructureDefinition.differential.element[4].pattern.ofType(Reference): Unable to resolve resource with reference 'Patient/example'
-WARNING: StructureDefinition.where(url = 'https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEServiceRequest'): The Implementation Guide contains no examples for this profile
-ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.url' at 'div/table/tr/td/a' for 'url' does not resolve
-ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]' at 'div/table/tr/td/a' for 'Slices for value[x]' does not resolve
-ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-CIEServiceRequest-definitions.html#ServiceRequest.performer.extension.value[x]:valueString' at 'div/table/tr/td/a' for 'value[x]:valueString' does not resolve

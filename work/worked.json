@@ -1,0 +1,67 @@
+{
+  "active": true,
+  "address": [
+    {
+      "city": "Marquette",
+      "district": "Marquette",
+      "line": [
+        "28243 3rd Ave"
+      ],
+      "postalCode": "49855",
+      "state": "MI",
+      "type": "physical",
+      "use": "old"
+    }
+  ],
+  "birthDate": "1984-05-30",
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "code": "en-US",
+            "display": "English"
+          }
+        ]
+      },
+      "preferred": true
+    }
+  ],
+  "deceasedBoolean": false,
+  "gender": "male",
+  "id": "7d632541-f883-4121-b981-ce8e0b30ca71",
+  "meta": {
+    "lastUpdated": "2025-06-12T13:26:56.829736+00:00",
+    "versionId": "MTc0OTczNDgxNjgyOTczNjAwMA"
+  },
+  "name": [
+    {
+      "family": "SMITH",
+      "given": [
+        "BOB"
+      ],
+      "use": "official"
+    }
+  ],
+  "resourceType": "Patient",
+  "telecom": [
+    {
+      "rank": 1,
+      "system": "phone",
+      "use": "mobile",
+      "value": "(555) 555-5555"
+    },
+    {
+      "rank": 2,
+      "system": "phone",
+      "use": "home",
+      "value": "(444) 444-4444"
+    },
+    {
+      "rank": 1,
+      "system": "email",
+      "use": "home",
+      "value": "bobsmith@email.com"
+    }
+  ]
+}

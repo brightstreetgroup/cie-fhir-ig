@@ -5,19 +5,5 @@
     "url" : "https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us",
     "version" : "0.1.0",
     "name" : "ciefhirig"
-  },
-  {
-    "id" : "CIEPatient",
-    "type" : "StructureDefinition",
-    "url" : "https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEPatient",
-    "version" : "0.1.0",
-    "name" : "CIEPatient"
-  },
-  {
-    "id" : "CIEServiceRequest",
-    "type" : "StructureDefinition",
-    "url" : "https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/CIEServiceRequest",
-    "version" : "0.1.0",
-    "name" : "CIEServiceRequest"
   }
 ]

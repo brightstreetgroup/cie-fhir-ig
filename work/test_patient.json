@@ -1,0 +1,66 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "resourceType": "Patient",
+            "active": true,
+            "id": "119000",
+            "name": [
+                {
+                    "use": "official",
+                    "family": "Test",
+                    "given": [
+                        "Test"
+                    ]
+                }
+            ],
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "906-555-5555",
+                    "use": "home"
+                }
+            ],
+            "address": [
+                {
+                    "use": "home",
+                    "type": "physical",
+                    "text": "123 STREET ST, Marquette, MI, USA",
+                    "line": [
+                        "123 STREET ST"
+                    ],         
+                {
+                    "use": "official",
+                    "type": {
+                        "text": "patient_id"
+                    },
+                    "system": "http://uphie.org/patient/id",
+                    "value": "DSHS-34JFF3-342VV2V6-4355"
+                }
+                    "city": "MARQUETTE",
+                    "state": "MI",
+                    "postalCode": "49855"
+                }
+            ],
+            "identifiers": [            "identifiers": [
+                {
+                    "use": "official",
+                    "type": {
+                        "text": "patient_id"
+                    },
+                    "system": "http://uphie.org/patient/id",
+                    "value": "DSHS-34JFF3-342VV2V6-4355"
+                }
+                {
+                    "use": "official",
+                    "type": {
+                        "text": "patient_id"
+                    },
+                    "system": "http://uphie.org/patient/id",
+                    "value": "DSHS-34JFF3-342VV2V6-4355"
+                }
+            ]
+        }
+    ]
+}
