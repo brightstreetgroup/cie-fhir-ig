@@ -147,9 +147,9 @@
       "date" : "2020-07-08"
     },
     {
-      "version" : "0.1.0",
+      "version" : "0.0.1",
       "desc" : "22-2-2020 - based on base template",
-      "path" : "https://build.fhir.org/ig/IHE/ihe-ig-template/0.1.0",
+      "path" : "https://build.fhir.org/ig/IHE/ihe-ig-template/0.0.1",
       "status" : "release",
       "date" : "2020-02-22"
     },
