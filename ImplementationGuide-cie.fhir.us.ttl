@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ciefhirig"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-21T08:01:42-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-21T08:05:45-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Brighstreet Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Brighstreet Group" ] ;
@@ -831,6 +831,23 @@
          fhir:reference [ fhir:v "Bundle/CIEBundleServiceRequest" ]
        ] ;
        fhir:name [ fhir:v "CIEBundleServiceRequest" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Bundle"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://directory.mi-cie.org/cie/fhir/ig/Bundle/GOFSH-GENERATED-ID-0> ;
+         fhir:reference [ fhir:v "Bundle/GOFSH-GENERATED-ID-0" ]
+       ] ;
+       fhir:name [ fhir:v "GOFSH-GENERATED-ID-0" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v true

@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="ciefhirig"/>
   <status value="draft"/>
-  <date value="2025-07-21T08:01:42-04:00"/>
+  <date value="2025-07-21T08:05:45-04:00"/>
   <publisher value="Brighstreet Group"/>
   <contact>
     <name value="Brighstreet Group"/>
@@ -449,6 +449,16 @@
         <reference value="Bundle/CIEBundleServiceRequest"/>
       </reference>
       <name value="CIEBundleServiceRequest"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/GOFSH-GENERATED-ID-0"/>
+      </reference>
+      <name value="GOFSH-GENERATED-ID-0"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>
