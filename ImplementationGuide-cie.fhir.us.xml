@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide cie.fhir.us</b></p><a name="cie.fhir.us"> </a><a name="hccie.fhir.us"> </a><h2>ciefhirig</h2><p>The official URL for this implementation guide is: </p><pre>https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us</pre></div>
   </text>
   <url value="https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us"/>
-  <version value="0.1.0"/>
+  <version value="0.0.1"/>
   <name value="ciefhirig"/>
   <status value="draft"/>
-  <date value="2025-07-21T08:16:52-04:00"/>
+  <date value="2025-07-21T08:25:08-04:00"/>
   <publisher value="Brighstreet Group"/>
   <contact>
     <name value="Brighstreet Group"/>
@@ -484,6 +484,22 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="changelog.html"/>
+        </extension>
+        <nameUrl value="changelog.html"/>
+        <title value="Changelog"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="quickstart.html"/>
+        </extension>
+        <nameUrl value="quickstart.html"/>
+        <title value="Quickstart"/>
         <generation value="markdown"/>
       </page>
     </page>

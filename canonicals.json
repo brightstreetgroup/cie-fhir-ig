@@ -3,7 +3,7 @@
     "id" : "cie.fhir.us",
     "type" : "ImplementationGuide",
     "url" : "https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us",
-    "version" : "0.1.0",
+    "version" : "0.0.1",
     "name" : "ciefhirig"
   }
 ]

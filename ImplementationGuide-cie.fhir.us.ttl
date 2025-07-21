@@ -14,10 +14,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide cie.fhir.us</b></p><a name=\"cie.fhir.us\"> </a><a name=\"hccie.fhir.us\"> </a><h2>ciefhirig</h2><p>The official URL for this implementation guide is: </p><pre>https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.us"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1"] ; # 
   fhir:name [ fhir:v "ciefhirig"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-21T08:16:52-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-21T08:25:08-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Brighstreet Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Brighstreet Group" ] ;
@@ -897,6 +897,34 @@
            fhir:v "index.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "changelog.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "changelog.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Changelog" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "quickstart.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "quickstart.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Quickstart" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

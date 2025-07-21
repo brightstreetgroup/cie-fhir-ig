@@ -93,7 +93,7 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIETask.json: line 109, col 10, Error - Unable to resolve resource with reference 'Practitioner/a979df85-8ac2-4f93-8809-95208b800f87' (STRUCTURE)
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIETask.json: line 0, col 0, Error - Relative Reference appears inside Bundle whose entry is missing a fullUrl (REQUIRED)
 /home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/Bundle-CIETask.json: line 159, col 10, Error - Unable to resolve resource with reference 'Organization/MI211-GRYP' (STRUCTURE)
-/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json: line 1, col 12082, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (INVARIANT)
+/home/sween/Desktop/BSG/cie-fhir-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.us.json: line 1, col 12453, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (INVARIANT)
 
 err = 42, warn = 39, info = 2
 IG Publisher Version: 2.0.8
